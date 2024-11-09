@@ -7,6 +7,8 @@
 import random
 MEMORY = r"C:\python\functions\drafts.txt"
 CUBE_LIST_FILE = r"C:\python\Cube\cube_list.txt"
+STARTING_PILE_SIZE = 4
+NUM_PILES = 4
 
 with open(CUBE_LIST_FILE, "r") as f:
     cube_list = f.read()
@@ -18,11 +20,11 @@ def remove_non_ascii(text):
 
 def draw_piles(cube):
     """NOTE: Mutates the list CUBE"""
-    piles = [[], [], [], []]
-    for i in range(16):
+    piles = [[] for _ in range(NUM_PILES)]
+    for i in range(NUM_PILES*STARTING_PILE_SIZE):
         if len(cube) > 0:
             card = random.choice(cube)
-            piles[i % 4].append(card)
+            piles[i % NUM_PILES].append(card)
             cube.remove(card)
 
     return piles
@@ -98,7 +100,7 @@ while len(unchosen) > 0 or len(piles) > 0:
             unchosen.remove(card)
 
     if my_turn:
-        print(f"You now have: {my_cards} \nGrant now has: {opp_cards}")
+        print(f"Aaron now has: {my_cards} \nGrant now has: {opp_cards}")
         with open(MEMORY, 'w') as file:
             file.write(remove_non_ascii("My cards: \n{0}".format('\n'.join(my_cards))))
     if len(piles) > 0:

@@ -4,10 +4,12 @@
 # Paste into cube_list.txt.
 # Have both players load this program and play in parallel, sharing seeds via Discord or another communication method.
 # an implementation of Winston drafting where piles are face-down, so seeds must be used to communicate between players.
+# Key difference: cannot opt to take top card of the deck instead. You must take the last pile if it comes to that.
 
 import random
 MEMORY = r"C:\python\functions\drafts.txt"
 CUBE_LIST_FILE = r"C:\python\Cube\cube_list.txt"
+STARTING_PILE_SIZE = 4
 NUM_PILES = 4
 
 with open(CUBE_LIST_FILE, "r") as f:
@@ -27,36 +29,15 @@ def remove_non_ascii(text):
     return ''.join([i for i in text if ord(i) < 128])
 
 
-def draw_piles(cube):
-    """NOTE: Mutates the list CUBE"""
-    piles = [[], [], [], []]
-    for i in range(4):
-        for j in range(4):
-            card = random.choice()
-            piles[i].append
-
-    pile_2 = [random.choice(cube) for _ in range(4)]
-    for card in pile_2:
-        cube.remove(card)
-    pile_3 = [random.choice(cube) for _ in range(4)]
-    pile_4 = [random.choice(cube) for _ in range(4)]
-
-    for card in pile_3:
-        cube.remove(card)
-    for card in pile_4:
-        cube.remove(card)
-
-    return [pile_1, pile_2, pile_3, pile_4]
-
 def seeded_draw_piles(cube, seed):
     """Given a collection of 16 seeds, draw 4 piles using the seed. Mutates the CUBE list."""
-    assert len(seed) == 16, "Must supply 16 seeds."
-    cards = [[], [], [], []]
-    for i in range(16):
-        random.seed(seed[i])
+    assert len(seed) == NUM_PILES*STARTING_PILE_SIZE, "Must supply 16 seeds."
+    cards = [[] for _ in range(NUM_PILES)]
+    for i in range(NUM_PILES*STARTING_PILE_SIZE):
         if len(cube) > 0:
+            random.seed(seed[i])
             card = random.choice(cube)
-            cards[i % 4].append(card)
+            cards[i % NUM_PILES].append(card)
             cube.remove(card)
     return cards
 
@@ -110,8 +91,8 @@ while len(unchosen) > 0 or len(piles) > 0:
     # set up the piles if there are none existing
     if len(piles) == 0:
         if my_turn:
-            seed = [random.randint(0, 2**8 - 1) for _ in range(16)]
-            ask_for_confirmed_input(f"Please give your opponent the following seed: {seed}", lambda x: x)
+            seed = [random.randint(0, 2**8 - 1) for _ in range(NUM_PILES*STARTING_PILE_SIZE)]
+            ask_for_confirmed_input(f"Please give your opponent the following seed:\n{', '.join([str(s) for s in seed])}", lambda x: x)
         else:
             seed = ask_for_confirmed_input("Please input the seed from your opponent: ", lambda x: [int(n) for n in x.split(', ')])
         piles = seeded_draw_piles(unchosen, seed)
@@ -121,8 +102,7 @@ while len(unchosen) > 0 or len(piles) > 0:
         pile_num = -1
         while not (taking == "Y"):
             pile_num += 1
-            print(pile_num)
-            if pile_num < NUM_PILES - 1:
+            if pile_num < len(piles) - 1:
                 print(f"Pile {pile_num + 1} contains: {', '.join(piles[pile_num])}")
                 taking = ask_for_confirmed_input("Will you take this pile? Y or N: ", lambda x: x)
             else:
@@ -130,8 +110,8 @@ while len(unchosen) > 0 or len(piles) > 0:
                 taking = "Y"
         chosen_pile = piles[pile_num]
         my_cards = my_cards + chosen_pile
-        seed = [random.randint(0, 2**8 - 1), random.randint(0, 2**8 - 1), random.randint(0, 2**8 - 1)]
-        ask_for_confirmed_input(f"Please give your opponent the following seed, and press enter when ready:\n{seed[0], seed[1], seed[2]}", lambda x: x)
+        seed = [random.randint(0, 2**8 - 1) for _ in range(len(piles) - 1)]  # we will be removing one pile before the opponent uses this seed
+        ask_for_confirmed_input(f"Please give your opponent the following seed, and press enter when ready:\n{', '.join([str(seed[n]) for n in range(len(piles) - 1)])}", lambda x: x)
     else:
         chosen_pile = ask_for_confirmed_input("Which pile is your opponent taking? ", lambda x: piles[int(x) - 1])
         opp_cards = opp_cards + chosen_pile
