@@ -8,6 +8,7 @@
 import random
 MEMORY = r"C:\python\functions\drafts.txt"
 CUBE_LIST_FILE = r"C:\python\Cube\cube_list.txt"
+NUM_PILES = 4
 
 with open(CUBE_LIST_FILE, "r") as f:
     cube_list = f.read()
@@ -116,9 +117,18 @@ while len(unchosen) > 0 or len(piles) > 0:
         piles = seeded_draw_piles(unchosen, seed)
     # one player chooses a pile
     if my_turn:
-        for i in range(len(piles)):
-            print(f"Pile {i + 1}: {', '.join(piles[i])}")
-        chosen_pile = ask_for_confirmed_input("Which pile will you take? ", lambda x: piles[int(x) - 1])
+        taking = ""
+        pile_num = -1
+        while not (taking == "Y"):
+            pile_num += 1
+            print(pile_num)
+            if pile_num < NUM_PILES - 1:
+                print(f"Pile {pile_num + 1} contains: {', '.join(piles[pile_num])}")
+                taking = ask_for_confirmed_input("Will you take this pile? Y or N: ", lambda x: x)
+            else:
+                print(f"You take the last pile: {', '.join(piles[pile_num])}")
+                taking = "Y"
+        chosen_pile = piles[pile_num]
         my_cards = my_cards + chosen_pile
         seed = [random.randint(0, 2**8 - 1), random.randint(0, 2**8 - 1), random.randint(0, 2**8 - 1)]
         ask_for_confirmed_input(f"Please give your opponent the following seed, and press enter when ready:\n{seed[0], seed[1], seed[2]}", lambda x: x)
