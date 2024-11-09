@@ -68,6 +68,8 @@ for s in lst:
     index = find_nth(s, "\t", 3)
     final_list.append(s[:index].replace("\t", " "))
 
+final_list[:] = [x for x in final_list if x]  # remove all empty strings, in case I left a blank line or placed the quotes wrong
+
 # Actual code below
 
 cube = list(final_list)
@@ -87,6 +89,7 @@ else:
 piles = []
 
 while len(unchosen) > 0 or len(piles) > 0:
+    print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
     # set up the piles if there are none existing
     if len(piles) == 0:
         if my_turn:
@@ -141,7 +144,7 @@ while len(unchosen) > 0 or len(piles) > 0:
 
     assert len(seed) == len(piles) + 1, "Number of seeds does not match number of piles + 1 (for top of deck)! Clients must be desynced."  # we should always have enough seeds to add to the remaining piles, plus one for the top card of the deck
     for pile, sd in zip(piles, seed[:len(piles)]):
-        print(f"Using seed {sd}")
+        # print(f"Using seed {sd}")
         random.seed(sd)
         if len(unchosen) > 0:  # otherwise don't add to the piles
             card = random.choice(unchosen)
@@ -149,7 +152,7 @@ while len(unchosen) > 0 or len(piles) > 0:
             unchosen.remove(card)
     next_card = []
     if len(unchosen) > 0:  # after the piles are lengthened
-        print(f"Using seed {seed[-1]}")
+        # print(f"Using seed {seed[-1]}")
         random.seed(seed[-1])
         next_card = [random.choice(unchosen)]
 
@@ -159,7 +162,6 @@ while len(unchosen) > 0 or len(piles) > 0:
             file.write(remove_non_ascii("My cards: \n{0}".format('\n'.join(my_cards))))
     if len(piles) > 0:
         my_turn = not my_turn
-    print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
 
 # when all cards are drafted
 with open(MEMORY, 'w') as file:

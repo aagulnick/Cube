@@ -58,6 +58,8 @@ for s in lst:
     index = find_nth(s, "\t", 3)
     final_list.append(s[:index].replace("\t", " "))
 
+final_list[:] = [x for x in final_list if x]  # remove all empty strings, in case I left a blank line or placed the quotes wrong
+
 # Actual code below
 
 cube = list(final_list)
@@ -77,6 +79,7 @@ else:
 piles = draw_piles(unchosen)
 
 while len(unchosen) > 0 or len(piles) > 0:
+    print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
     # set up the piles if there are none existing
     if len(piles) == 0:
         piles = draw_piles(unchosen)
@@ -105,7 +108,6 @@ while len(unchosen) > 0 or len(piles) > 0:
             file.write(remove_non_ascii("My cards: \n{0}".format('\n'.join(my_cards))))
     if len(piles) > 0:
         my_turn = not my_turn
-    print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
 
 # when all cards are drafted
 with open(MEMORY, 'w') as file:
