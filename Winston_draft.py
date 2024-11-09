@@ -1,5 +1,5 @@
 # INSTRUCTIONS:
-# Ensure the file paths below are accurate.
+# Ensure the file paths and other settings below are accurate.
 # Go to a cube in CubeKoga: Overview > Export > Copy to Clipboard.
 # Paste into cube_list.txt.
 # Have both players load this program and play in parallel, sharing seeds via Discord or another communication method.
@@ -8,8 +8,8 @@
 import random
 MEMORY = r"C:\python\functions\drafts.txt"
 CUBE_LIST_FILE = r"C:\python\Cube\cube_list.txt"
-STARTING_PILE_SIZE = 4
-NUM_PILES = 4
+STARTING_PILE_SIZE = 1
+NUM_PILES = 3
 
 with open(CUBE_LIST_FILE, "r") as f:
     cube_list = f.read()
@@ -128,8 +128,7 @@ while len(unchosen) > 0 or len(piles) > 0:
         print(f"You now have: {my_cards}")
         with open(MEMORY, 'w') as file:
             file.write(remove_non_ascii("My cards: \n{0}".format('\n'.join(my_cards))))
-    if len(piles) > 0:
-        my_turn = not my_turn
+    my_turn = not my_turn
 
     print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
 
