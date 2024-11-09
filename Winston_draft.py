@@ -88,18 +88,23 @@ else:
 
 piles = []
 
+if my_turn:
+    seed = random.randint(0, 2**32 - 1)
+    ask_for_confirmed_input(f"Please give your opponent the following seed, and press enter when done:\n{seed}", lambda x: x)
+else:
+    seed = ask_for_confirmed_input(f"Please input the seed your opponent gave you: ", lambda x: int(x))
+
+random.seed(seed)
+random.shuffle(unchosen)
+
 while len(unchosen) > 0 or len(piles) > 0:
-    print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
     # set up the piles if there are none existing
     if len(piles) == 0:
-        if my_turn:
-            seed = [random.randint(0, 2**8 - 1) for _ in range(NUM_PILES*STARTING_PILE_SIZE + 1)]
-            ask_for_confirmed_input(f"Please give your opponent the following seed:\n{', '.join([str(s) for s in seed])}", lambda x: x)
-        else:
-            seed = ask_for_confirmed_input("Please input the seed from your opponent: ", lambda x: [int(n) for n in x.split(', ')])
-        piles = seeded_draw_piles(unchosen, seed[:NUM_PILES*STARTING_PILE_SIZE])
-        random.seed(seed[-1])
-        next_card = [random.choice(unchosen)]
+        piles = [[] for _ in range(NUM_PILES)]
+        for pile in piles:
+            for _ in range(STARTING_PILE_SIZE):
+                pile.append(unchosen.pop())
+
     # one player chooses a pile
     if my_turn:
         TOOK_TOP = False
@@ -114,47 +119,31 @@ while len(unchosen) > 0 or len(piles) > 0:
                 taking = ask_for_confirmed_input("Will you take this pile? Y or N: ", lambda x: x)
                 chosen_pile = piles[pile_num]
             else:
-                if not next_card:
+                if len(unchosen) == 0:
                     print(f"The deck is empty, so you take the last pile: {', '.join(piles[pile_num - 1])}")
                     chosen_pile = piles[pile_num - 1]
                 else:
-                    print(f"You take the top card of the deck: {next_card[0]}")
+                    chosen_pile = [unchosen.pop()]
+                    print(f"You take the top card of the deck: {chosen_pile[0]}")
+                    TOOK_TOP = True
                 taking = "Y"
-                chosen_pile = next_card
-                TOOK_TOP = True
         my_cards = my_cards + chosen_pile
-        seed = [random.randint(0, 2**8 - 1) for _ in range(len(piles) + int(TOOK_TOP))]  # we will be removing one pile before the opponent uses this seed, as long as we didn't take the top card
-        ask_for_confirmed_input(f"Please give your opponent the following seed, and press enter when ready:\n{', '.join([str(s) for s in seed])}", lambda x: x)
     else:
         TOOK_TOP = False
-        def choice_func(n, s):
+        def choice_func(n):
             if n == 0:
-                random.seed(s)
-                return [random.choice(unchosen)], True
+                return [unchosen.pop()], True
             else:
                 return piles[n - 1], False
-        chosen_pile, TOOK_TOP = ask_for_confirmed_input("Which pile is your opponent taking? (Use 0 for top card of deck) ", lambda x: choice_func(int(x), seed[-1]))
+        chosen_pile, TOOK_TOP = ask_for_confirmed_input("Which pile is your opponent taking? (Use 0 for top card of deck) ", lambda x: choice_func(int(x)))
         opp_cards = opp_cards + chosen_pile
-        seed = ask_for_confirmed_input("Please input the seed your opponent gives you for the next draw: ", lambda x: [int(n) for n in x.split(', ')])
 
     if not TOOK_TOP:
         piles.remove(chosen_pile)
-    else:
-        unchosen.remove(next_card[0])  # actually remove the top card from the deck iff it is taken
 
-    assert len(seed) == len(piles) + 1, "Number of seeds does not match number of piles + 1 (for top of deck)! Clients must be desynced."  # we should always have enough seeds to add to the remaining piles, plus one for the top card of the deck
-    for pile, sd in zip(piles, seed[:len(piles)]):
-        # print(f"Using seed {sd}")
-        random.seed(sd)
+    for pile in piles:
         if len(unchosen) > 0:  # otherwise don't add to the piles
-            card = random.choice(unchosen)
-            pile.append(card)
-            unchosen.remove(card)
-    next_card = []
-    if len(unchosen) > 0:  # after the piles are lengthened
-        # print(f"Using seed {seed[-1]}")
-        random.seed(seed[-1])
-        next_card = [random.choice(unchosen)]
+            pile.append(unchosen.pop())
 
     if my_turn:
         print(f"You now have: {my_cards}")
@@ -162,6 +151,8 @@ while len(unchosen) > 0 or len(piles) > 0:
             file.write(remove_non_ascii("My cards: \n{0}".format('\n'.join(my_cards))))
     if len(piles) > 0:
         my_turn = not my_turn
+
+    print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
 
 # when all cards are drafted
 with open(MEMORY, 'w') as file:
