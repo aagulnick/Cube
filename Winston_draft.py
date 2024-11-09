@@ -4,7 +4,6 @@
 # Paste into cube_list.txt.
 # Have both players load this program and play in parallel, sharing seeds via Discord or another communication method.
 # an implementation of Winston drafting where piles are face-down, so seeds must be used to communicate between players.
-# Key difference: cannot opt to take top card of the deck instead. You must take the last pile if it comes to that.
 
 import random
 MEMORY = r"C:\python\functions\drafts.txt"
@@ -30,7 +29,7 @@ def remove_non_ascii(text):
 
 
 def seeded_draw_piles(cube, seed):
-    """Given a collection of 16 seeds, draw 4 piles using the seed. Mutates the CUBE list."""
+    """Given a collection of NUM_PILES*STARTING_PILE_SIZE seeds, draw NUM_PILES piles of size STARTING_PILE_SIZE using the seed. Mutates the CUBE list."""
     assert len(seed) == NUM_PILES*STARTING_PILE_SIZE, "Must supply 16 seeds."
     cards = [[] for _ in range(NUM_PILES)]
     for i in range(NUM_PILES*STARTING_PILE_SIZE):
@@ -91,39 +90,68 @@ while len(unchosen) > 0 or len(piles) > 0:
     # set up the piles if there are none existing
     if len(piles) == 0:
         if my_turn:
-            seed = [random.randint(0, 2**8 - 1) for _ in range(NUM_PILES*STARTING_PILE_SIZE)]
+            seed = [random.randint(0, 2**8 - 1) for _ in range(NUM_PILES*STARTING_PILE_SIZE + 1)]
             ask_for_confirmed_input(f"Please give your opponent the following seed:\n{', '.join([str(s) for s in seed])}", lambda x: x)
         else:
             seed = ask_for_confirmed_input("Please input the seed from your opponent: ", lambda x: [int(n) for n in x.split(', ')])
-        piles = seeded_draw_piles(unchosen, seed)
+        piles = seeded_draw_piles(unchosen, seed[:NUM_PILES*STARTING_PILE_SIZE])
+        random.seed(seed[-1])
+        next_card = [random.choice(unchosen)]
     # one player chooses a pile
     if my_turn:
+        TOOK_TOP = False
         taking = ""
         pile_num = -1
         while not (taking == "Y"):
             pile_num += 1
-            if pile_num < len(piles) - 1:
+            if pile_num < len(piles):
                 print(f"Pile {pile_num + 1} contains: {', '.join(piles[pile_num])}")
+                if pile_num == len(piles) - 1:
+                    print("Warning: this is the last pile. If you do not take it, you will get the top card of the deck.")
                 taking = ask_for_confirmed_input("Will you take this pile? Y or N: ", lambda x: x)
+                chosen_pile = piles[pile_num]
             else:
-                print(f"You take the last pile: {', '.join(piles[pile_num])}")
+                if not next_card:
+                    print(f"The deck is empty, so you take the last pile: {', '.join(piles[pile_num - 1])}")
+                    chosen_pile = piles[pile_num - 1]
+                else:
+                    print(f"You take the top card of the deck: {next_card[0]}")
                 taking = "Y"
-        chosen_pile = piles[pile_num]
+                chosen_pile = next_card
+                TOOK_TOP = True
         my_cards = my_cards + chosen_pile
-        seed = [random.randint(0, 2**8 - 1) for _ in range(len(piles) - 1)]  # we will be removing one pile before the opponent uses this seed
-        ask_for_confirmed_input(f"Please give your opponent the following seed, and press enter when ready:\n{', '.join([str(seed[n]) for n in range(len(piles) - 1)])}", lambda x: x)
+        seed = [random.randint(0, 2**8 - 1) for _ in range(len(piles) + int(TOOK_TOP))]  # we will be removing one pile before the opponent uses this seed, as long as we didn't take the top card
+        ask_for_confirmed_input(f"Please give your opponent the following seed, and press enter when ready:\n{', '.join([str(s) for s in seed])}", lambda x: x)
     else:
-        chosen_pile = ask_for_confirmed_input("Which pile is your opponent taking? ", lambda x: piles[int(x) - 1])
+        TOOK_TOP = False
+        def choice_func(n, s):
+            if n == 0:
+                random.seed(s)
+                return [random.choice(unchosen)], True
+            else:
+                return piles[n - 1], False
+        chosen_pile, TOOK_TOP = ask_for_confirmed_input("Which pile is your opponent taking? (Use 0 for top card of deck) ", lambda x: choice_func(int(x), seed[-1]))
         opp_cards = opp_cards + chosen_pile
         seed = ask_for_confirmed_input("Please input the seed your opponent gives you for the next draw: ", lambda x: [int(n) for n in x.split(', ')])
 
-    piles.remove(chosen_pile)
+    if not TOOK_TOP:
+        piles.remove(chosen_pile)
+    else:
+        unchosen.remove(next_card[0])  # actually remove the top card from the deck iff it is taken
+
+    assert len(seed) == len(piles) + 1, "Number of seeds does not match number of piles + 1 (for top of deck)! Clients must be desynced."  # we should always have enough seeds to add to the remaining piles, plus one for the top card of the deck
     for pile, sd in zip(piles, seed[:len(piles)]):
+        print(f"Using seed {sd}")
         random.seed(sd)
         if len(unchosen) > 0:  # otherwise don't add to the piles
             card = random.choice(unchosen)
             pile.append(card)
             unchosen.remove(card)
+    next_card = []
+    if len(unchosen) > 0:  # after the piles are lengthened
+        print(f"Using seed {seed[-1]}")
+        random.seed(seed[-1])
+        next_card = [random.choice(unchosen)]
 
     if my_turn:
         print(f"You now have: {my_cards}")
