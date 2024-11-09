@@ -14,31 +14,10 @@ NUM_PILES = 4
 with open(CUBE_LIST_FILE, "r") as f:
     cube_list = f.read()
 
-def p_valuation(n, p):
-    """Given an integer n and a prime p, return the highest power of p dividing n."""
-    count = 0
-    while n % p == 0:
-        n = n % p
-        count += 1
-    return count
-
-
 def remove_non_ascii(text):
     """Strips non-ASCII characters, like delta and prism star, from card names so that file.write doesn't error."""
     return ''.join([i for i in text if ord(i) < 128])
 
-
-def seeded_draw_piles(cube, seed):
-    """Given a collection of NUM_PILES*STARTING_PILE_SIZE seeds, draw NUM_PILES piles of size STARTING_PILE_SIZE using the seed. Mutates the CUBE list."""
-    assert len(seed) == NUM_PILES*STARTING_PILE_SIZE, "Must supply 16 seeds."
-    cards = [[] for _ in range(NUM_PILES)]
-    for i in range(NUM_PILES*STARTING_PILE_SIZE):
-        if len(cube) > 0:
-            random.seed(seed[i])
-            card = random.choice(cube)
-            cards[i % NUM_PILES].append(card)
-            cube.remove(card)
-    return cards
 
 def ask_for_confirmed_input(message, processing_function):
     confirmed = False
