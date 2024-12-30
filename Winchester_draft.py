@@ -1,12 +1,12 @@
 # INSTRUCTIONS:
 # Ensure the file paths below are accurate.
-# Go to a cube in CubeKoga: Overview > Export > Copy to Clipboard.
+# Go to a cube in CubeKoga: Overview > Export > Untap.in.
 # Paste into cube_list.txt.
 # an implementation of Winchester drafting, where piles are face-up. Meant to be played on my computer and screenshared.
 
 import random
-MEMORY = r"C:\python\Cube\draft_results.txt"
-CUBE_LIST_FILE = r"C:\python\Cube\cube_list.txt"
+MEMORY = r"./draft_results.txt"
+CUBE_LIST_FILE = r"./cube_list.txt"
 STARTING_PILE_SIZE = 4
 NUM_PILES = 4
 
