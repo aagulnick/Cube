@@ -5,7 +5,7 @@
 # an implementation of Winchester drafting, where piles are face-up. Meant to be played on my computer and screenshared.
 
 import random
-MEMORY = r"C:\python\functions\drafts.txt"
+MEMORY = r"C:\python\Cube\draft_results.txt"
 CUBE_LIST_FILE = r"C:\python\Cube\cube_list.txt"
 STARTING_PILE_SIZE = 4
 NUM_PILES = 4
@@ -46,19 +46,13 @@ def ask_for_confirmed_input(message, processing_function):
 
 lst = cube_list.split("\n")
 
-def find_nth(haystack: str, needle: str, n: int) -> int:
-    start = haystack.find(needle)
-    while start >= 0 and n > 1:
-        start = haystack.find(needle, start+len(needle))
-        n -= 1
-    return start
+lst[:] = [x for x in lst if x]  # remove all empty strings, in case I left a blank line or placed the quotes wrong
 
 final_list = []
 for s in lst:
-    index = find_nth(s, "\t", 3)
-    final_list.append(s[:index].replace("\t", " "))
-
-final_list[:] = [x for x in final_list if x]  # remove all empty strings, in case I left a blank line or placed the quotes wrong
+    num, card = s.split(" ", 1)
+    for _ in range(int(num)):
+        final_list.append(card)
 
 # Actual code below
 
@@ -111,4 +105,6 @@ while len(unchosen) > 0 or len(piles) > 0:
 
 # when all cards are drafted
 with open(MEMORY, 'w') as file:
-    file.write(remove_non_ascii("Aaron's cards: \n{0}\n\nGrant's cards: \n{1}".format('\n'.join(my_cards), '\n'.join(opp_cards))))
+    aaron_cards_untap_formatted = [str(my_cards.count(card))+ " " + str(card) for card in set(my_cards)]
+    grant_cards_untap_formatted = [str(opp_cards.count(card))+ " " + str(card) for card in set(opp_cards)]
+    file.write(remove_non_ascii("Aaron's cards: \n{0}\n\nGrant's cards: \n{1}".format('\n'.join(aaron_cards_untap_formatted), '\n'.join(grant_cards_untap_formatted))))

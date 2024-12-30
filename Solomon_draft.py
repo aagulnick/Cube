@@ -6,6 +6,7 @@
 import random
 MEMORY = r"C:\python\Cube\draft_results.txt"
 CUBE_LIST_FILE = r"C:\python\Cube\cube_list.txt"
+CARDS_PER_PACK = 8
 
 with open(CUBE_LIST_FILE, "r") as f:
     cube_list = f.read()
@@ -14,19 +15,13 @@ with open(CUBE_LIST_FILE, "r") as f:
 
 lst = cube_list.split("\n")
 
-def find_nth(haystack: str, needle: str, n: int) -> int:
-    start = haystack.find(needle)
-    while start >= 0 and n > 1:
-        start = haystack.find(needle, start+len(needle))
-        n -= 1
-    return start
+lst[:] = [x for x in lst if x]  # remove all empty strings, in case I left a blank line or placed the quotes wrong
 
 final_list = []
 for s in lst:
-    index = find_nth(s, "\t", 3)
-    final_list.append(s[:index].replace("\t", " "))
-
-final_list[:] = [x for x in final_list if x]  # remove all empty strings, in case I left a blank line or placed the quotes wrong
+    num, card = s.split(" ", 1)
+    for _ in range(int(num)):
+        final_list.append(card)
 
 # Actual drafting code below
 
@@ -89,7 +84,7 @@ def solomon_draft(cube, n):
     print(f"Player 1 drafted: {player_1_cards} \nPlayer 2 drafted: {player_2_cards}")
     return player_1_cards, player_2_cards
 
-drafts = solomon_draft(final_list, 8)
+drafts = solomon_draft(final_list, CARDS_PER_PACK)
 
 def remove_non_ascii(text):
     """Strips non-ASCII characters, like delta and prism star, from card names so that file.write doesn't error."""
@@ -98,4 +93,6 @@ def remove_non_ascii(text):
 with open(MEMORY, 'w') as file:
     p1_cards = drafts[0]
     p2_cards = drafts[1]
-    file.write(remove_non_ascii("PLAYER 1: \n{0}\n\nPLAYER 2: \n{1}".format('\n'.join(p1_cards), '\n'.join(p2_cards))))
+    p1_cards_untap_formatted = [str(p1_cards.count(card))+ " " + str(card) for card in set(p1_cards)]
+    p2_cards_untap_formatted = [str(p2_cards.count(card))+ " " + str(card) for card in set(p2_cards)]
+    file.write(remove_non_ascii("PLAYER 1: \n{0}\n\nPLAYER 2: \n{1}".format('\n'.join(p1_cards_untap_formatted), '\n'.join(p2_cards_untap_formatted))))

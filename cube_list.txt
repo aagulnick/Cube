@@ -1,576 +1,79 @@
-Rillaboom	swsh45	13	Pokémon	Grass	https://images.pokemontcg.io/swsh45/13.png	$0.19
-Rillaboom	swsh45	13	Pokémon	Grass	https://images.pokemontcg.io/swsh45/13.png	$0.19
-Rillaboom	swsh6	18	Pokémon	Grass	https://images.pokemontcg.io/swsh6/18.png	$0.15
-Rillaboom	swsh6	18	Pokémon	Grass	https://images.pokemontcg.io/swsh6/18.png	$0.15
-Thwackey	sv6	15	Pokémon	Grass	https://images.pokemontcg.io/sv6/15.png	$0.09
-Thwackey	sv6	15	Pokémon	Grass	https://images.pokemontcg.io/sv6/15.png	$0.09
-Thwackey	sv6	15	Pokémon	Grass	https://images.pokemontcg.io/sv6/15.png	$0.09
-Thwackey	sv6	15	Pokémon	Grass	https://images.pokemontcg.io/sv6/15.png	$0.09
-Thwackey	swsh45	12	Pokémon	Grass	https://images.pokemontcg.io/swsh45/12.png	$0.05
-Grookey	mcd21	8	Pokémon	Grass	https://images.pokemontcg.io/mcd21/8.png	$0.2
-Grookey	mcd21	8	Pokémon	Grass	https://images.pokemontcg.io/mcd21/8.png	$0.2
-Grookey	sv6	14	Pokémon	Grass	https://images.pokemontcg.io/sv6/14.png	$0.05
-Grookey	sv6	14	Pokémon	Grass	https://images.pokemontcg.io/sv6/14.png	$0.05
-Grookey on the Ball	fut20	3	Pokémon	Grass	https://images.pokemontcg.io/fut20/3.png	$36.07
-Grookey on the Ball	fut20	3	Pokémon	Grass	https://images.pokemontcg.io/fut20/3.png	$36.07
-Tangrowth LV.X	AR	99	Pokémon	Grass	https://images.pokemontcg.io/pl4/99.png	$13.86
-Tangrowth	BCR	6	Pokémon	Grass	https://images.pokemontcg.io/bw7/6.png	$1.14
-Tangrowth	UNB	17	Pokémon	Grass	https://images.pokemontcg.io/sm10/17.png	$0.2
-Tangrowth	UNB	17	Pokémon	Grass	https://images.pokemontcg.io/sm10/17.png	$0.2
-Tangrowth	STS	2	Pokémon	Grass	https://images.pokemontcg.io/xy11/2.png	$0.16
-Tangela	CL	72	Pokémon	Grass	https://images.pokemontcg.io/col1/72.png	$0.25
-Tangela	RG	30	Pokémon	Grass	https://images.pokemontcg.io/ex6/30.png	$1.79
-Tangela	UNB	16	Pokémon	Grass	https://images.pokemontcg.io/sm10/16.png	$0.1
-Tangela	CEC	5	Pokémon	Grass	https://images.pokemontcg.io/sm12/5.png	$0.1
-Tangela	swsh12pt5	4	Pokémon	Grass	https://images.pokemontcg.io/swsh12pt5/4.png	$0.05
-Shaymin LV.X	PL	127	Pokémon	Grass	https://images.pokemontcg.io/pl1/127.png	$27.26
-Shaymin	UL	8	Pokémon	Grass	https://images.pokemontcg.io/hgss2/8.png	$6.05
-Shaymin	UL	8	Pokémon	Grass	https://images.pokemontcg.io/hgss2/8.png	$6.05
-Weedle	RR	86	Pokémon	Grass	https://images.pokemontcg.io/pl2/86.png	$0.28
-Illumise	GE	71	Pokémon	Grass	https://images.pokemontcg.io/dp4/71.png	$0.35
-Pinsir	LM	24	Pokémon	Grass	https://images.pokemontcg.io/ex12/24.png	$0.52
-Volbeat	GE	92	Pokémon	Grass	https://images.pokemontcg.io/dp4/92.png	$0.29
-Kingdra	swsh11	37	Pokémon	Water	https://images.pokemontcg.io/swsh11/37.png	$0.16
-Kingdra	swsh11	37	Pokémon	Water	https://images.pokemontcg.io/swsh11/37.png	$0.16
-Kingdra	BST	33	Pokémon	Water	https://images.pokemontcg.io/swsh5/33.png	$0.23
-Kingdra	BST	33	Pokémon	Water	https://images.pokemontcg.io/swsh5/33.png	$0.23
-Seadra	swsh11	36	Pokémon	Water	https://images.pokemontcg.io/swsh11/36.png	$0.04
-Seadra	swsh11	36	Pokémon	Water	https://images.pokemontcg.io/swsh11/36.png	$0.04
-Seadra	swsh11	36	Pokémon	Water	https://images.pokemontcg.io/swsh11/36.png	$0.04
-Seadra	swsh11	36	Pokémon	Water	https://images.pokemontcg.io/swsh11/36.png	$0.04
-Seadra	swsh11	36	Pokémon	Water	https://images.pokemontcg.io/swsh11/36.png	$0.04
-Horsea	sv3pt5	116	Pokémon	Water	https://images.pokemontcg.io/sv3pt5/116.png	$0.03
-Horsea	sv4	30	Pokémon	Water	https://images.pokemontcg.io/sv4/30.png	$0.04
-Horsea	swsh11	35	Pokémon	Water	https://images.pokemontcg.io/swsh11/35.png	$0.05
-Horsea	swsh11	35	Pokémon	Water	https://images.pokemontcg.io/swsh11/35.png	$0.05
-Horsea	swsh11	35	Pokémon	Water	https://images.pokemontcg.io/swsh11/35.png	$0.05
-Horsea	swsh11	35	Pokémon	Water	https://images.pokemontcg.io/swsh11/35.png	$0.05
-Seaking	sv3pt5	119	Pokémon	Water	https://images.pokemontcg.io/sv3pt5/119.png	$0.06
-Seaking	sv3pt5	119	Pokémon	Water	https://images.pokemontcg.io/sv3pt5/119.png	$0.06
-Seaking	sv3pt5	119	Pokémon	Water	https://images.pokemontcg.io/sv3pt5/119.png	$0.06
-Seaking	sv3pt5	119	Pokémon	Water	https://images.pokemontcg.io/sv3pt5/119.png	$0.06
-Goldeen	sv6	44	Pokémon	Water	https://images.pokemontcg.io/sv6/44.png	$0.03
-Goldeen	sv6	44	Pokémon	Water	https://images.pokemontcg.io/sv6/44.png	$0.03
-Goldeen	sv6	44	Pokémon	Water	https://images.pokemontcg.io/sv6/44.png	$0.03
-Goldeen	sv6	44	Pokémon	Water	https://images.pokemontcg.io/sv6/44.png	$0.03
-Goldeen	sv6	44	Pokémon	Water	https://images.pokemontcg.io/sv6/44.png	$0.03
-Frosmoth	SSH	64	Pokémon	Water	https://images.pokemontcg.io/swsh1/64.png	$0.29
-Frosmoth	SSH	64	Pokémon	Water	https://images.pokemontcg.io/swsh1/64.png	$0.29
-Frosmoth	SSH	64	Pokémon	Water	https://images.pokemontcg.io/swsh1/64.png	$0.29
-Frosmoth	SSH	64	Pokémon	Water	https://images.pokemontcg.io/swsh1/64.png	$0.29
-Snom	swsh45	29	Pokémon	Water	https://images.pokemontcg.io/swsh45/29.png	$0.05
-Snom	swsh45	29	Pokémon	Water	https://images.pokemontcg.io/swsh45/29.png	$0.05
-Snom	swsh45	29	Pokémon	Water	https://images.pokemontcg.io/swsh45/29.png	$0.05
-Snom	swsh8	84	Pokémon	Water	https://images.pokemontcg.io/swsh8/84.png	$0.05
-Snom	swsh8	84	Pokémon	Water	https://images.pokemontcg.io/swsh8/84.png	$0.05
-Hisuian Basculegion	swsh11	45	Pokémon	Water	https://images.pokemontcg.io/swsh11/45.png	$0.55
-Hisuian Basculegion	swsh11	45	Pokémon	Water	https://images.pokemontcg.io/swsh11/45.png	$0.55
-Hisuian Basculin	swsh10	43	Pokémon	Water	https://images.pokemontcg.io/swsh10/43.png	$0.04
-Hisuian Basculin	swsh10	43	Pokémon	Water	https://images.pokemontcg.io/swsh10/43.png	$0.04
-Hisuian Basculin	swsh10	43	Pokémon	Water	https://images.pokemontcg.io/swsh10/43.png	$0.04
-Finneon	swsh11	40	Pokémon	Water	https://images.pokemontcg.io/swsh11/40.png	$0.05
-Finneon	swsh11	40	Pokémon	Water	https://images.pokemontcg.io/swsh11/40.png	$0.05
-Black Kyurem	PR-XY	XY160	Pokémon	Water	https://images.pokemontcg.io/xyp/XY160.png	$0.57
-Cramorant	swsh11	50	Pokémon	Water	https://images.pokemontcg.io/swsh11/50.png	$0.17
-Iron Bundle	sv4	56	Pokémon	Water	https://images.pokemontcg.io/sv4/56.png	$0.09
-Kyogre	cel25	3	Pokémon	Water	https://images.pokemontcg.io/cel25/3.png	$0.14
-Lapras	LM	8	Pokémon	Water	https://images.pokemontcg.io/ex12/8.png	$19.03
-Delphox BREAK	FAC	14	Pokémon	Fire	https://images.pokemontcg.io/xy10/14.png	$1.53
-Delphox	FLI	17	Pokémon	Fire	https://images.pokemontcg.io/sm6/17.png	$0.98
-Delphox	FAC	13	Pokémon	Fire	https://images.pokemontcg.io/xy10/13.png	$0.31
-Delphox	XY	26	Pokémon	Fire	https://images.pokemontcg.io/xy1/26.png	$2.06
-Delphox	XY	26	Pokémon	Fire	https://images.pokemontcg.io/xy1/26.png	$2.06
-Braixen	FLI	16	Pokémon	Fire	https://images.pokemontcg.io/sm6/16.png	$0.28
-Braixen	FLI	16	Pokémon	Fire	https://images.pokemontcg.io/sm6/16.png	$0.28
-Braixen	XY	25	Pokémon	Fire	https://images.pokemontcg.io/xy1/25.png	$0.21
-Braixen	XY	25	Pokémon	Fire	https://images.pokemontcg.io/xy1/25.png	$0.21
-Braixen	BKT	26	Pokémon	Fire	https://images.pokemontcg.io/xy8/26.png	$0.17
-Fennekin	mcd21	14	Pokémon	Fire	https://images.pokemontcg.io/mcd21/14.png	$0.17
-Fennekin	mcd21	14	Pokémon	Fire	https://images.pokemontcg.io/mcd21/14.png	$0.17
-Fennekin	swsh12	25	Pokémon	Fire	https://images.pokemontcg.io/swsh12/25.png	$0.05
-Fennekin	swsh12	25	Pokémon	Fire	https://images.pokemontcg.io/swsh12/25.png	$0.05
-Fennekin	FAC	10	Pokémon	Fire	https://images.pokemontcg.io/xy10/10.png	$0.1
-Fennekin	PR-XY	XY02	Pokémon	Fire	https://images.pokemontcg.io/xyp/XY02.png	$3.27
-Charizard	pgo	10	Pokémon	Fire	https://images.pokemontcg.io/pgo/10.png	$0.96
-Charizard	pgo	10	Pokémon	Fire	https://images.pokemontcg.io/pgo/10.png	$0.96
-Charizard	VIV	25	Pokémon	Fire	https://images.pokemontcg.io/swsh4/25.png	$1.32
-Charizard	VIV	25	Pokémon	Fire	https://images.pokemontcg.io/swsh4/25.png	$1.32
-Charmeleon	DRM	2	Pokémon	Fire	https://images.pokemontcg.io/sm75/2.png	$0.77
-Charmeleon	DRM	2	Pokémon	Fire	https://images.pokemontcg.io/sm75/2.png	$0.77
-Charmeleon	sv3	27	Pokémon	Fire	https://images.pokemontcg.io/sv3/27.png	$0.09
-Charmeleon	sv4pt5	8	Pokémon	Fire	https://images.pokemontcg.io/sv4pt5/8.png	$0.06
-Charmeleon	sv4pt5	8	Pokémon	Fire	https://images.pokemontcg.io/sv4pt5/8.png	$0.06
-Charmander	TR	50	Pokémon	Fire	https://images.pokemontcg.io/base5/50.png	$1.21
-Charmander	TR	50	Pokémon	Fire	https://images.pokemontcg.io/base5/50.png	$1.21
-Charmander	PK	48	Pokémon	Fire	https://images.pokemontcg.io/ex16/48.png	$0.9
-Charmander	AR	59	Pokémon	Fire	https://images.pokemontcg.io/pl4/59.png	$0.9
-Charmander	sv4pt5	7	Pokémon	Fire	https://images.pokemontcg.io/sv4pt5/7.png	$0.08
-Charmander	VIV	23	Pokémon	Fire	https://images.pokemontcg.io/swsh4/23.png	$0.12
-Magcargo	CES	24	Pokémon	Fire	https://images.pokemontcg.io/sm7/24.png	$0.63
-Magcargo	CES	24	Pokémon	Fire	https://images.pokemontcg.io/sm7/24.png	$0.63
-Magcargo	CES	24	Pokémon	Fire	https://images.pokemontcg.io/sm7/24.png	$0.63
-Magcargo	sv5	29	Pokémon	Fire	https://images.pokemontcg.io/sv5/29.png	$0.05
-Slugma	UD	67	Pokémon	Fire	https://images.pokemontcg.io/hgss3/67.png	$0.36
-Slugma	UD	67	Pokémon	Fire	https://images.pokemontcg.io/hgss3/67.png	$0.36
-Slugma	sv5	28	Pokémon	Fire	https://images.pokemontcg.io/sv5/28.png	$0.02
-Slugma	sv5	28	Pokémon	Fire	https://images.pokemontcg.io/sv5/28.png	$0.02
-Slugma	sv6	28	Pokémon	Fire	https://images.pokemontcg.io/sv6/28.png	$0.02
-Heatran LV.X	dpp	DP31	Pokémon	Fire	https://images.pokemontcg.io/dpp/DP31.png	$13.23
-Heatran	LA	6	Pokémon	Fire	https://images.pokemontcg.io/dp6/6.png	$3.56
-Shining Ho-Oh	PR-SM	SM70	Pokémon	Fire	https://images.pokemontcg.io/smp/SM70.png	$5.73
-Flareon Star	PK	100	Pokémon	Fire	https://images.pokemontcg.io/ex16/100.png	$201
-Heatmor	swsh8	41	Pokémon	Fire	https://images.pokemontcg.io/swsh8/41.png	$0.08
-Iron Moth	sv4	28	Pokémon	Fire	https://images.pokemontcg.io/sv4/28.png	$0.12
-Reshiram	BW	113	Pokémon	Fire	https://images.pokemontcg.io/bw1/113.png	$23.55
-Victini ◇	DRM	7	Pokémon	Fire	https://images.pokemontcg.io/sm75/7.png	$1.12
-Eelektross	PLB	33	Pokémon	Lightning	https://images.pokemontcg.io/bw10/33.png	$0.88
-Eelektross	PLB	33	Pokémon	Lightning	https://images.pokemontcg.io/bw10/33.png	$0.88
-Eelektross	VIV	59	Pokémon	Lightning	https://images.pokemontcg.io/swsh4/59.png	$0.08
-Eelektross	PRC	65	Pokémon	Lightning	https://images.pokemontcg.io/xy5/65.png	$0.51
-Eelektrik	NVI	40	Pokémon	Lightning	https://images.pokemontcg.io/bw3/40.png	$1.41
-Eelektrik	NVI	40	Pokémon	Lightning	https://images.pokemontcg.io/bw3/40.png	$1.41
-Eelektrik	NVI	40	Pokémon	Lightning	https://images.pokemontcg.io/bw3/40.png	$1.41
-Eelektrik	UNM	65	Pokémon	Lightning	https://images.pokemontcg.io/sm11/65.png	$0.07
-Eelektrik	PRC	64	Pokémon	Lightning	https://images.pokemontcg.io/xy5/64.png	$0.31
-Tynamo	NVI	39	Pokémon	Lightning	https://images.pokemontcg.io/bw3/39.png	$0.29
-Tynamo	NVI	39	Pokémon	Lightning	https://images.pokemontcg.io/bw3/39.png	$0.29
-Tynamo	NVI	39	Pokémon	Lightning	https://images.pokemontcg.io/bw3/39.png	$0.29
-Tynamo	UNM	64	Pokémon	Lightning	https://images.pokemontcg.io/sm11/64.png	$0.07
-Tynamo	BUS	44	Pokémon	Lightning	https://images.pokemontcg.io/sm3/44.png	$0.1
-Tynamo	VIV	57	Pokémon	Lightning	https://images.pokemontcg.io/swsh4/57.png	$0.03
-Raichu LV.X	SF	99	Pokémon	Lightning	https://images.pokemontcg.io/dp7/99.png	$43.1
-Alolan Raichu	UNM	57	Pokémon	Lightning	https://images.pokemontcg.io/sm11/57.png	$1.88
-Raichu	UD	83	Pokémon	Lightning	https://images.pokemontcg.io/hgss3/83.png	$28.82
-Raichu	XY	43	Pokémon	Lightning	https://images.pokemontcg.io/xy1/43.png	$1.17
-Raichu	XY	43	Pokémon	Lightning	https://images.pokemontcg.io/xy1/43.png	$1.17
-Detective Pikachu	PR-SM	SM194	Pokémon	Lightning	https://images.pokemontcg.io/smp/SM194.png	$2.02
-Pikachu	MT	94	Pokémon	Lightning	https://images.pokemontcg.io/dp2/94.png	$2.18
-Pikachu	MT	94	Pokémon	Lightning	https://images.pokemontcg.io/dp2/94.png	$2.18
-Pikachu	OP6	9	Pokémon	Lightning	https://images.pokemontcg.io/pop6/9.png	$18.68
-Pikachu	swsh11	52	Pokémon	Lightning	https://images.pokemontcg.io/swsh11/52.png	$0.12
-Minun	SW	32	Pokémon	Lightning	https://images.pokemontcg.io/dp3/32.png	$1.22
-Pachirisu	CL	18	Pokémon	Lightning	https://images.pokemontcg.io/col1/18.png	$4.01
-Pichu	HS	28	Pokémon	Lightning	https://images.pokemontcg.io/hgss1/28.png	$7.29
-Pichu	HS	28	Pokémon	Lightning	https://images.pokemontcg.io/hgss1/28.png	$7.29
-Pichu	HS	28	Pokémon	Lightning	https://images.pokemontcg.io/hgss1/28.png	$7.29
-Plusle	SW	36	Pokémon	Lightning	https://images.pokemontcg.io/dp3/36.png	$1.33
-Raikou	LOT	79	Pokémon	Lightning	https://images.pokemontcg.io/sm8/79.png	$0.78
-Rotom	UD	20	Pokémon	Lightning	https://images.pokemontcg.io/hgss3/20.png	$0.84
-Tapu Koko	PR-SM	SM31	Pokémon	Lightning	https://images.pokemontcg.io/smp/SM31.png	$0.62
-Dusknoir LV.X	SF	96	Pokémon	Psychic	https://images.pokemontcg.io/dp7/96.png	$44.1
-Dusknoir	BCR	63	Pokémon	Psychic	https://images.pokemontcg.io/bw7/63.png	$4.29
-Dusknoir	SF	1	Pokémon	Psychic	https://images.pokemontcg.io/dp7/1.png	$2.68
-Dusknoir	SF	1	Pokémon	Psychic	https://images.pokemontcg.io/dp7/1.png	$2.68
-Dusknoir	sv6pt5	20	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/20.png	$0.6
-Dusclops	sv6pt5	19	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/19.png	$0.66
-Dusclops	sv6pt5	19	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/19.png	$0.66
-Dusclops	sv6pt5	19	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/19.png	$0.66
-Dusclops	sv6pt5	19	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/19.png	$0.66
-Dusclops	sv6pt5	19	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/19.png	$0.66
-Duskull	CEC	83	Pokémon	Psychic	https://images.pokemontcg.io/sm12/83.png	$0.12
-Duskull	sv6pt5	18	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/18.png	$0.36
-Duskull	sv6pt5	18	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/18.png	$0.36
-Duskull	sv6pt5	18	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/18.png	$0.36
-Duskull	sv6pt5	18	Pokémon	Psychic	https://images.pokemontcg.io/sv6pt5/18.png	$0.36
-Duskull	FLF	38	Pokémon	Psychic	https://images.pokemontcg.io/xy2/38.png	$0.16
-Crobat BREAK	PR-XY	XY181	Pokémon	Psychic	https://images.pokemontcg.io/xyp/XY181.png	$1.96
-Crobat	PR-BLW	BW51	Pokémon	Psychic	https://images.pokemontcg.io/bwp/BW51.png	$8.88
-Crobat	sv4	112	Pokémon	Darkness	https://images.pokemontcg.io/sv4/112.png	$0.04
-Crobat	swsh12	105	Pokémon	Darkness	https://images.pokemontcg.io/swsh12/105.png	$0.19
-Crobat	swsh12	105	Pokémon	Darkness	https://images.pokemontcg.io/swsh12/105.png	$0.19
-Golbat	swsh12	104	Pokémon	Darkness	https://images.pokemontcg.io/swsh12/104.png	$0.05
-Golbat	BST	90	Pokémon	Darkness	https://images.pokemontcg.io/swsh5/90.png	$0.06
-Golbat	BST	90	Pokémon	Darkness	https://images.pokemontcg.io/swsh5/90.png	$0.06
-Golbat	BST	90	Pokémon	Darkness	https://images.pokemontcg.io/swsh5/90.png	$0.06
-Golbat	BST	90	Pokémon	Darkness	https://images.pokemontcg.io/swsh5/90.png	$0.06
-Zubat	sv3pt5	41	Pokémon	Darkness	https://images.pokemontcg.io/sv3pt5/41.png	$0.04
-Zubat	sv3pt5	41	Pokémon	Darkness	https://images.pokemontcg.io/sv3pt5/41.png	$0.04
-Zubat	swsh12	103	Pokémon	Darkness	https://images.pokemontcg.io/swsh12/103.png	$0.07
-Zubat	swsh12	103	Pokémon	Darkness	https://images.pokemontcg.io/swsh12/103.png	$0.07
-Zubat	swsh12	103	Pokémon	Darkness	https://images.pokemontcg.io/swsh12/103.png	$0.07
-Zubat	swsh12	103	Pokémon	Darkness	https://images.pokemontcg.io/swsh12/103.png	$0.07
-Banette	PL	19	Pokémon	Psychic	https://images.pokemontcg.io/pl1/19.png	$2.24
-Banette	swsh11	73	Pokémon	Psychic	https://images.pokemontcg.io/swsh11/73.png	$0.06
-Banette	swsh11	73	Pokémon	Psychic	https://images.pokemontcg.io/swsh11/73.png	$0.06
-Banette	ROS	32	Pokémon	Psychic	https://images.pokemontcg.io/xy6/32.png	$0.31
-Shuppet	sv1	87	Pokémon	Psychic	https://images.pokemontcg.io/sv1/87.png	$0.07
-Shuppet	sv1	87	Pokémon	Psychic	https://images.pokemontcg.io/sv1/87.png	$0.07
-Shuppet	sv1	87	Pokémon	Psychic	https://images.pokemontcg.io/sv1/87.png	$0.07
-Shuppet	sv1	87	Pokémon	Psychic	https://images.pokemontcg.io/sv1/87.png	$0.07
-Shuppet	sv1	87	Pokémon	Psychic	https://images.pokemontcg.io/sv1/87.png	$0.07
-Exeggutor	swsh12pt5	58	Pokémon	Psychic	https://images.pokemontcg.io/swsh12pt5/58.png	$0.1
-Exeggcute	PLF	4	Pokémon	Grass	https://images.pokemontcg.io/bw9/4.png	$3.12
-Exeggcute	PLF	4	Pokémon	Grass	https://images.pokemontcg.io/bw9/4.png	$3.12
-Cleffa	sv3	202	Pokémon	Psychic	https://images.pokemontcg.io/sv3/202.png	$7.37
-Cleffa	sv3	202	Pokémon	Psychic	https://images.pokemontcg.io/sv3/202.png	$7.37
-Cresselia LV.X	GE	103	Pokémon	Psychic	https://images.pokemontcg.io/dp4/103.png	$20.5
-Cresselia	swsh11	74	Pokémon	Psychic	https://images.pokemontcg.io/swsh11/74.png	$0.49
-Mr. Mime	J	6	Pokémon	Psychic	https://images.pokemontcg.io/base2/6.png	$20.23
-Mewtwo	PR-SM	SM214	Pokémon	Psychic	https://images.pokemontcg.io/smp/SM214.png	$2.24
-Mesprit	LA	34	Pokémon	Psychic	https://images.pokemontcg.io/dp6/34.png	$6.19
-Giratina	LOT	97	Pokémon	Psychic	https://images.pokemontcg.io/sm8/97.png	$3.71
-Gengar	swsh11	66	Pokémon	Psychic	https://images.pokemontcg.io/swsh11/66.png	$0.41
-Flutter Mane	sv5	78	Pokémon	Psychic	https://images.pokemontcg.io/sv5/78.png	$0.2
-Jirachi	CL	11	Pokémon	Psychic	https://images.pokemontcg.io/col1/11.png	$10.99
-Jirachi ex	CG	94	Pokémon	Psychic	https://images.pokemontcg.io/ex14/94.png	$84.62
-Klefki	sv1	96	Pokémon	Psychic	https://images.pokemontcg.io/sv1/96.png	$0.15
-Munkidori	sv6	95	Pokémon	Psychic	https://images.pokemontcg.io/sv6/95.png	$0.19
-Munkidori	sv6	95	Pokémon	Psychic	https://images.pokemontcg.io/sv6/95.png	$0.19
-Spiritomb	LA	16	Pokémon	Psychic	https://images.pokemontcg.io/dp6/16.png	$6.11
-Unown G	GE	57	Pokémon	Psychic	https://images.pokemontcg.io/dp4/57.png	$4.4
-Unown R	LA	77	Pokémon	Psychic	https://images.pokemontcg.io/dp6/77.png	$3
-Minior	sv4	201	Pokémon	Fighting	https://images.pokemontcg.io/sv4/201.png	$8.66
-Zoroark BREAK	BKT	92	Pokémon	Darkness	https://images.pokemontcg.io/xy8/92.png	$2.35
-Zoroark	TEU	91	Pokémon	Darkness	https://images.pokemontcg.io/sm9/91.png	$0.35
-Zoroark	TEU	91	Pokémon	Darkness	https://images.pokemontcg.io/sm9/91.png	$0.35
-Zoroark	swsh7	103	Pokémon	Darkness	https://images.pokemontcg.io/swsh7/103.png	$0.24
-Zoroark	BKT	91	Pokémon	Darkness	https://images.pokemontcg.io/xy8/91.png	$1.55
-Hisuian Zorua	swsh11	75	Pokémon	Psychic	https://images.pokemontcg.io/swsh11/75.png	$0.04
-Zorua	DEX	69	Pokémon	Darkness	https://images.pokemontcg.io/bw5/69.png	$1.03
-Zorua	DEX	69	Pokémon	Darkness	https://images.pokemontcg.io/bw5/69.png	$1.03
-Zorua	DEX	70	Pokémon	Darkness	https://images.pokemontcg.io/bw5/70.png	$0.91
-Zorua	swsh7	102	Pokémon	Darkness	https://images.pokemontcg.io/swsh7/102.png	$0.05
-Absol	swsh10	97	Pokémon	Darkness	https://images.pokemontcg.io/swsh10/97.png	$0.25
-Hoopa	UNM	140	Pokémon	Darkness	https://images.pokemontcg.io/sm11/140.png	$0.53
-Sableye	SS	10	Pokémon	Darkness	https://images.pokemontcg.io/ex2/10.png	$40.71
-Spiritomb	AR	32	Pokémon	Darkness	https://images.pokemontcg.io/pl4/32.png	$3.97
-Spiritomb	swsh11	117	Pokémon	Darkness	https://images.pokemontcg.io/swsh11/117.png	$0.1
-Dialga	PL	5	Pokémon	Metal	https://images.pokemontcg.io/pl1/5.png	$9.26
-Klinklang	sv7	101	Pokémon	Metal	https://images.pokemontcg.io/sv7/101.png	$0.06
-Jirachi	LA	31	Pokémon	Metal	https://images.pokemontcg.io/dp6/31.png	$3.72
-Jirachi	RR	7	Pokémon	Metal	https://images.pokemontcg.io/pl2/7.png	$12.47
-Skarmory ex	PK	98	Pokémon	Metal	https://images.pokemontcg.io/ex16/98.png	$42.31
-Hydreigon BREAK	STS	87	Pokémon	Dragon	https://images.pokemontcg.io/xy11/87.png	$2.89
-Hydreigon	DRX	97	Pokémon	Dragon	https://images.pokemontcg.io/bw6/97.png	$0.75
-Hydreigon	DAA	110	Pokémon	Darkness	https://images.pokemontcg.io/swsh3/110.png	$0.19
-Hydreigon	DAA	110	Pokémon	Darkness	https://images.pokemontcg.io/swsh3/110.png	$0.19
-Hydreigon	STS	86	Pokémon	Dragon	https://images.pokemontcg.io/xy11/86.png	$0.31
-Zweilous	DRX	95	Pokémon	Dragon	https://images.pokemontcg.io/bw6/95.png	$0.32
-Zweilous	DRX	96	Pokémon	Dragon	https://images.pokemontcg.io/bw6/96.png	$0.31
-Zweilous	sv2	139	Pokémon	Darkness	https://images.pokemontcg.io/sv2/139.png	$0.04
-Zweilous	sv2	139	Pokémon	Darkness	https://images.pokemontcg.io/sv2/139.png	$0.04
-Zweilous	swsh7	114	Pokémon	Dragon	https://images.pokemontcg.io/swsh7/114.png	$0.04
-Deino	NVI	77	Pokémon	Darkness	https://images.pokemontcg.io/bw3/77.png	$0.25
-Deino	DRX	94	Pokémon	Dragon	https://images.pokemontcg.io/bw6/94.png	$0.19
-Deino	PLF	75	Pokémon	Darkness	https://images.pokemontcg.io/bw9/75.png	$0.33
-Deino	DAA	108	Pokémon	Darkness	https://images.pokemontcg.io/swsh3/108.png	$0.04
-Deino	swsh7	113	Pokémon	Dragon	https://images.pokemontcg.io/swsh7/113.png	$0.05
-Deino	STS	84	Pokémon	Dragon	https://images.pokemontcg.io/xy11/84.png	$0.07
-Porygon-Z LV.X	MD	100	Pokémon	Colorless	https://images.pokemontcg.io/dp5/100.png	$55.46
-Porygon-Z	GE	6	Pokémon	Colorless	https://images.pokemontcg.io/dp4/6.png	$5.45
-Porygon-Z	TM	7	Pokémon	Colorless	https://images.pokemontcg.io/hgss4/7.png	$2.79
-Porygon-Z	BUS	105	Pokémon	Colorless	https://images.pokemontcg.io/sm3/105.png	$0.27
-Porygon-Z	sv4	144	Pokémon	Colorless	https://images.pokemontcg.io/sv4/144.png	$0.13
-Dark Porygon2	NDT	8	Pokémon	Colorless	https://images.pokemontcg.io/neo4/8.png	$74.89
-Porygon2	GE	49	Pokémon	Colorless	https://images.pokemontcg.io/dp4/49.png	$1.01
-Porygon2	DS	25	Pokémon	Colorless	https://images.pokemontcg.io/ex11/25.png	$1.7
-Porygon2	DS	25	Pokémon	Colorless	https://images.pokemontcg.io/ex11/25.png	$1.7
-Porygon2	NR	12	Pokémon	Colorless	https://images.pokemontcg.io/neo3/12.png	$25.53
-Cool Porygon	WP	15	Pokémon	Colorless	https://images.pokemontcg.io/basep/15.png	$25.62
-Porygon	UNB	155	Pokémon	Colorless	https://images.pokemontcg.io/sm10/155.png	$0.14
-Porygon	BUS	103	Pokémon	Colorless	https://images.pokemontcg.io/sm3/103.png	$0.1
-Porygon	BUS	103	Pokémon	Colorless	https://images.pokemontcg.io/sm3/103.png	$0.1
-Porygon	swsh11	140	Pokémon	Colorless	https://images.pokemontcg.io/swsh11/140.png	$0.03
-Porygon	swsh11	140	Pokémon	Colorless	https://images.pokemontcg.io/swsh11/140.png	$0.03
-Cinccino	CIN	86	Pokémon	Colorless	https://images.pokemontcg.io/sm4/86.png	$0.06
-Cinccino	SSH	147	Pokémon	Colorless	https://images.pokemontcg.io/swsh1/147.png	$0.28
-Cinccino	SSH	147	Pokémon	Colorless	https://images.pokemontcg.io/swsh1/147.png	$0.28
-Minccino	swsh9	124	Pokémon	Colorless	https://images.pokemontcg.io/swsh9/124.png	$0.1
-Minccino	swsh9	124	Pokémon	Colorless	https://images.pokemontcg.io/swsh9/124.png	$0.1
-Minccino	swsh9	124	Pokémon	Colorless	https://images.pokemontcg.io/swsh9/124.png	$0.1
-Ditto	sv3pt5	132	Pokémon	Colorless	https://images.pokemontcg.io/sv3pt5/132.png	$0.18
-Dunsparce	CES	110	Pokémon	Colorless	https://images.pokemontcg.io/sm7/110.png	$0.18
-Bunnelby	PRC	121	Pokémon	Colorless	https://images.pokemontcg.io/xy5/121.png	$0.21
-Cleffa	HS	17	Pokémon	Colorless	https://images.pokemontcg.io/hgss1/17.png	$3.99
-Kangaskhan	TEU	128	Pokémon	Colorless	https://images.pokemontcg.io/sm9/128.png	$0.17
-Miltank	FLF	83	Pokémon	Colorless	https://images.pokemontcg.io/xy2/83.png	$0.29
-Oranguru	SUM	113	Pokémon	Colorless	https://images.pokemontcg.io/sm1/113.png	$0.28
-Oranguru	SSH	148	Pokémon	Colorless	https://images.pokemontcg.io/swsh1/148.png	$0.23
-Tauros	CG	12	Pokémon	Colorless	https://images.pokemontcg.io/ex14/12.png	$5.48
-Arezu	swsh11	153	Supporter		https://images.pokemontcg.io/swsh11/153.png	$0.08
-Arezu	swsh11	153	Supporter		https://images.pokemontcg.io/swsh11/153.png	$0.08
-Arezu	swsh11	153	Supporter		https://images.pokemontcg.io/swsh11/153.png	$0.08
-Arezu	swsh11	153	Supporter		https://images.pokemontcg.io/swsh11/153.png	$0.08
-Arezu	swsh11	153	Supporter		https://images.pokemontcg.io/swsh11/153.png	$0.08
-Arezu	swsh11	153	Supporter		https://images.pokemontcg.io/swsh11/153.png	$0.08
-Arven	sv1	166	Supporter		https://images.pokemontcg.io/sv1/166.png	$1.17
-Arven	sv1	166	Supporter		https://images.pokemontcg.io/sv1/166.png	$1.17
-Arven	sv1	166	Supporter		https://images.pokemontcg.io/sv1/166.png	$1.17
-Avery	swsh6	130	Supporter		https://images.pokemontcg.io/swsh6/130.png	$0.07
-Bebe's Search	MT	109	Supporter		https://images.pokemontcg.io/dp2/109.png	$0.28
-Bebe's Search	MT	109	Supporter		https://images.pokemontcg.io/dp2/109.png	$0.28
-Bird Keeper	DAA	159	Supporter		https://images.pokemontcg.io/swsh3/159.png	$0.18
-Blue's Tactics	UNM	188	Supporter		https://images.pokemontcg.io/sm11/188.png	$0.15
-Brock's Grit	EVO	74	Supporter		https://images.pokemontcg.io/xy12/74.png	$0.07
-Bruno	BST	121	Supporter		https://images.pokemontcg.io/swsh5/121.png	$0.09
-Carmine	sv6	145	Supporter		https://images.pokemontcg.io/sv6/145.png	$0.07
-Choy	swsh10	137	Supporter		https://images.pokemontcg.io/swsh10/137.png	$0.04
-Ciphermaniac's Codebreaking	sv5	145	Supporter		https://images.pokemontcg.io/sv5/145.png	$0.09
-Ciphermaniac's Codebreaking	sv5	145	Supporter		https://images.pokemontcg.io/sv5/145.png	$0.09
-Ciphermaniac's Codebreaking	sv5	145	Supporter		https://images.pokemontcg.io/sv5/145.png	$0.09
-Ciphermaniac's Codebreaking	sv5	145	Supporter		https://images.pokemontcg.io/sv5/145.png	$0.09
-Colress's Experiment	swsh11	155	Supporter		https://images.pokemontcg.io/swsh11/155.png	$0.14
-Colress's Experiment	swsh11	155	Supporter		https://images.pokemontcg.io/swsh11/155.png	$0.14
-Colress's Experiment	swsh11	155	Supporter		https://images.pokemontcg.io/swsh11/155.png	$0.14
-Colress's Experiment	swsh11	155	Supporter		https://images.pokemontcg.io/swsh11/155.png	$0.14
-Colress's Tenacity	sv6pt5	57	Supporter		https://images.pokemontcg.io/sv6pt5/57.png	$0.14
-Colress's Tenacity	sv6pt5	57	Supporter		https://images.pokemontcg.io/sv6pt5/57.png	$0.14
-Crispin	sv7	133	Supporter		https://images.pokemontcg.io/sv7/133.png	$0.14
-Crispin	sv7	133	Supporter		https://images.pokemontcg.io/sv7/133.png	$0.14
-Crispin	sv7	133	Supporter		https://images.pokemontcg.io/sv7/133.png	$0.14
-Cyllene	swsh10	138	Supporter		https://images.pokemontcg.io/swsh10/138.png	$0.12
-Cynthia & Caitlin	CEC	189	Supporter		https://images.pokemontcg.io/sm12/189.png	$1.41
-Dana	TEU	137	Supporter		https://images.pokemontcg.io/sm9/137.png	$0.16
-Dana	TEU	137	Supporter		https://images.pokemontcg.io/sm9/137.png	$0.16
-Dana	TEU	137	Supporter		https://images.pokemontcg.io/sm9/137.png	$0.16
-Flower Shop Lady	UD	74	Supporter		https://images.pokemontcg.io/hgss3/74.png	$0.69
-Furisode Girl	swsh12	157	Supporter		https://images.pokemontcg.io/swsh12/157.png	$0.06
-Geeta	sv3	188	Supporter		https://images.pokemontcg.io/sv3/188.png	$0.08
-Ghetsis	PLF	101	Supporter		https://images.pokemontcg.io/bw9/101.png	$1.38
-Giovanni's Scheme	BKT	138	Supporter		https://images.pokemontcg.io/xy8/138.png	$0.17
-Gloria	swsh9	141	Supporter		https://images.pokemontcg.io/swsh9/141.png	$0.04
-Gloria	swsh9	141	Supporter		https://images.pokemontcg.io/swsh9/141.png	$0.04
-Gloria	swsh9	141	Supporter		https://images.pokemontcg.io/swsh9/141.png	$0.04
-Gloria	swsh9	141	Supporter		https://images.pokemontcg.io/swsh9/141.png	$0.04
-Hassel	sv6	151	Supporter		https://images.pokemontcg.io/sv6/151.png	$0.03
-Holon Mentor	DS	93	Supporter		https://images.pokemontcg.io/ex11/93.png	$3.79
-Ingo & Emmet	TEU	144	Supporter		https://images.pokemontcg.io/sm9/144.png	$0.23
-Iono	sv2	185	Supporter		https://images.pokemontcg.io/sv2/185.png	$0.24
-Iono	sv2	185	Supporter		https://images.pokemontcg.io/sv2/185.png	$0.24
-Iono	sv2	185	Supporter		https://images.pokemontcg.io/sv2/185.png	$0.24
-Iono	sv2	185	Supporter		https://images.pokemontcg.io/sv2/185.png	$0.24
-Iono	sv2	185	Supporter		https://images.pokemontcg.io/sv2/185.png	$0.24
-Iono	sv2	185	Supporter		https://images.pokemontcg.io/sv2/185.png	$0.24
-Iris	PLB	81	Supporter		https://images.pokemontcg.io/bw10/81.png	$0.19
-Iris	PLB	81	Supporter		https://images.pokemontcg.io/bw10/81.png	$0.19
-Island Hermit	DF	76	Supporter		https://images.pokemontcg.io/ex15/76.png	$0.98
-Klara	swsh6	145	Supporter		https://images.pokemontcg.io/swsh6/145.png	$0.08
-Looker's Investigation	PL	109	Supporter		https://images.pokemontcg.io/pl1/109.png	$0.84
-Lucian's Assignment	RR	92	Supporter		https://images.pokemontcg.io/pl2/92.png	$0.32
-Mallow & Lana	CEC	198	Supporter		https://images.pokemontcg.io/sm12/198.png	$0.17
-Marley's Request	SF	87	Supporter		https://images.pokemontcg.io/dp7/87.png	$0.5
-Marnie	SSH	169	Supporter		https://images.pokemontcg.io/swsh1/169.png	$0.51
-Marnie	SSH	169	Supporter		https://images.pokemontcg.io/swsh1/169.png	$0.51
-Miriam	sv1	179	Supporter		https://images.pokemontcg.io/sv1/179.png	$0.08
-Miriam	sv1	179	Supporter		https://images.pokemontcg.io/sv1/179.png	$0.08
-Miriam	sv1	179	Supporter		https://images.pokemontcg.io/sv1/179.png	$0.08
-Morty's Conviction	sv5	155	Supporter		https://images.pokemontcg.io/sv5/155.png	$0.05
-N	NVI	101	Supporter		https://images.pokemontcg.io/bw3/101.png	$91.7
-N	NVI	101	Supporter		https://images.pokemontcg.io/bw3/101.png	$91.7
-N	NVI	101	Supporter		https://images.pokemontcg.io/bw3/101.png	$91.7
-N	NVI	101	Supporter		https://images.pokemontcg.io/bw3/101.png	$91.7
-Perrin	sv6	160	Supporter		https://images.pokemontcg.io/sv6/160.png	$0.07
-Pokémon Breeder	SLG	63	Supporter		https://images.pokemontcg.io/sm35/63.png	$0.14
-Pokémon Breeder's Nurturing	DAA	166	Supporter		https://images.pokemontcg.io/swsh3/166.png	$0.1
-Pokémon Breeder's Nurturing	DAA	166	Supporter		https://images.pokemontcg.io/swsh3/166.png	$0.1
-Pokémon Breeder's Nurturing	DAA	166	Supporter		https://images.pokemontcg.io/swsh3/166.png	$0.1
-Pokémon Breeder's Nurturing	DAA	166	Supporter		https://images.pokemontcg.io/swsh3/166.png	$0.1
-Pokémon Fan Club	GEN	69	Supporter		https://images.pokemontcg.io/g1/69.png	$0.21
-Pokémon Fan Club	GEN	69	Supporter		https://images.pokemontcg.io/g1/69.png	$0.21
-Pokémon Nurse	EX	145	Supporter		https://images.pokemontcg.io/ecard1/145.png	$5.26
-Professor Elm's Lecture	LOT	188	Supporter		https://images.pokemontcg.io/sm8/188.png	$0.23
-Professor Juniper	PLF	116	Supporter		https://images.pokemontcg.io/bw9/116.png	$93.37
-Professor Juniper	PLF	116	Supporter		https://images.pokemontcg.io/bw9/116.png	$93.37
-Professor Juniper	PLF	116	Supporter		https://images.pokemontcg.io/bw9/116.png	$93.37
-Professor Juniper	PLF	116	Supporter		https://images.pokemontcg.io/bw9/116.png	$93.37
-Professor Juniper	PLF	116	Supporter		https://images.pokemontcg.io/bw9/116.png	$93.37
-Professor Juniper	PLF	116	Supporter		https://images.pokemontcg.io/bw9/116.png	$93.37
-Professor Kukui	SUM	128	Supporter		https://images.pokemontcg.io/sm1/128.png	$0.08
-Professor Oak's New Theory	CL	83	Supporter		https://images.pokemontcg.io/col1/83.png	$0.71
-Professor Oak's New Theory	CL	83	Supporter		https://images.pokemontcg.io/col1/83.png	$0.71
-Professor Oak's New Theory	CL	83	Supporter		https://images.pokemontcg.io/col1/83.png	$0.71
-Professor Oak's New Theory	CL	83	Supporter		https://images.pokemontcg.io/col1/83.png	$0.71
-Professor Oak's New Theory	CL	83	Supporter		https://images.pokemontcg.io/col1/83.png	$0.71
-Professor Oak's New Theory	CL	83	Supporter		https://images.pokemontcg.io/col1/83.png	$0.71
-Professor Oak's Setup	CEC	201	Supporter		https://images.pokemontcg.io/sm12/201.png	$0.12
-Professor Turo's Scenario	sv4	171	Supporter		https://images.pokemontcg.io/sv4/171.png	$0.23
-Raihan	swsh7	152	Supporter		https://images.pokemontcg.io/swsh7/152.png	$0.08
-Roseanne's Backup	swsh9	148	Supporter		https://images.pokemontcg.io/swsh9/148.png	$0.06
-Roseanne's Research	SW	125	Supporter		https://images.pokemontcg.io/dp3/125.png	$1.92
-Roseanne's Research	SW	125	Supporter		https://images.pokemontcg.io/dp3/125.png	$1.92
-Roxanne	swsh10	150	Supporter		https://images.pokemontcg.io/swsh10/150.png	$0.1
-Ryme	sv3	194	Supporter		https://images.pokemontcg.io/sv3/194.png	$0.08
-Ryme	sv3	194	Supporter		https://images.pokemontcg.io/sv3/194.png	$0.08
-Seeker	TM	88	Supporter		https://images.pokemontcg.io/hgss4/88.png	$0.98
-Skyla	BCR	134	Supporter		https://images.pokemontcg.io/bw7/134.png	$0.2
-Skyla	BCR	134	Supporter		https://images.pokemontcg.io/bw7/134.png	$0.2
-Skyla	BCR	134	Supporter		https://images.pokemontcg.io/bw7/134.png	$0.2
-Skyla	BCR	134	Supporter		https://images.pokemontcg.io/bw7/134.png	$0.2
-Skyla	BCR	134	Supporter		https://images.pokemontcg.io/bw7/134.png	$0.2
-Skyla	BCR	134	Supporter		https://images.pokemontcg.io/bw7/134.png	$0.2
-Tate & Liza	CES	148	Supporter		https://images.pokemontcg.io/sm7/148.png	$1.14
-Team Yell's Cheer	swsh9	149	Supporter		https://images.pokemontcg.io/swsh9/149.png	$0.07
-Twins	TM	89	Supporter		https://images.pokemontcg.io/hgss4/89.png	$0.52
-Underground Expedition	RR	97	Supporter		https://images.pokemontcg.io/pl2/97.png	$0.26
-Underground Expedition	RR	97	Supporter		https://images.pokemontcg.io/pl2/97.png	$0.26
-Worker	swsh12	167	Supporter		https://images.pokemontcg.io/swsh12/167.png	$0.07
-Zinnia's Resolve	swsh7	164	Supporter		https://images.pokemontcg.io/swsh7/164.png	$0.05
-Buddy-Buddy Poffin	sv5	144	Item		https://images.pokemontcg.io/sv5/144.png	$1.63
-Buddy-Buddy Poffin	sv5	144	Item		https://images.pokemontcg.io/sv5/144.png	$1.63
-Buddy-Buddy Poffin	sv5	144	Item		https://images.pokemontcg.io/sv5/144.png	$1.63
-Buddy-Buddy Poffin	sv5	144	Item		https://images.pokemontcg.io/sv5/144.png	$1.63
-Buddy-Buddy Rescue	BKT	135	Item		https://images.pokemontcg.io/xy8/135.png	$0.19
-Challenge!	TR	74	Item		https://images.pokemontcg.io/base5/74.png	$0.71
-Counter Catcher	sv4	160	Item		https://images.pokemontcg.io/sv4/160.png	$1.26
-Counter Catcher	sv4	160	Item		https://images.pokemontcg.io/sv4/160.png	$1.26
-Counter Catcher	sv4	160	Item		https://images.pokemontcg.io/sv4/160.png	$1.26
-Counter Catcher	sv4	160	Item		https://images.pokemontcg.io/sv4/160.png	$1.26
-Double Gust	NG	100	Item		https://images.pokemontcg.io/neo1/100.png	$0.71
-Dual Ball	CL	78	Item		https://images.pokemontcg.io/col1/78.png	$0.47
-Dual Ball	CL	78	Item		https://images.pokemontcg.io/col1/78.png	$0.47
-Dusk Ball	MT	110	Item		https://images.pokemontcg.io/dp2/110.png	$0.27
-Earthen Vessel	sv4	163	Item		https://images.pokemontcg.io/sv4/163.png	$3.43
-Earthen Vessel	sv4	163	Item		https://images.pokemontcg.io/sv4/163.png	$3.43
-Earthen Vessel	sv4	163	Item		https://images.pokemontcg.io/sv4/163.png	$3.43
-Earthen Vessel	sv4	163	Item		https://images.pokemontcg.io/sv4/163.png	$3.43
-Energy Exchanger	UD	73	Item		https://images.pokemontcg.io/hgss3/73.png	$0.42
-Energy Recycler	BST	124	Item		https://images.pokemontcg.io/swsh5/124.png	$0.13
-Energy Switch	BW	94	Item		https://images.pokemontcg.io/bw1/94.png	$0.2
-Enhanced Hammer	DEX	94	Item		https://images.pokemontcg.io/bw5/94.png	$0.56
-Enhanced Hammer	DEX	94	Item		https://images.pokemontcg.io/bw5/94.png	$0.56
-Escape Rope	BST	125	Item		https://images.pokemontcg.io/swsh5/125.png	$0.12
-Escape Rope	BST	125	Item		https://images.pokemontcg.io/swsh5/125.png	$0.12
-Evolution Incense	SSH	163	Item		https://images.pokemontcg.io/swsh1/163.png	$0.17
-Evolution Incense	SSH	163	Item		https://images.pokemontcg.io/swsh1/163.png	$0.17
-Evolution Incense	SSH	163	Item		https://images.pokemontcg.io/swsh1/163.png	$0.17
-Evolution Incense	SSH	163	Item		https://images.pokemontcg.io/swsh1/163.png	$0.17
-Evosoda	XY	116	Item		https://images.pokemontcg.io/xy1/116.png	$0.74
-Evosoda	XY	116	Item		https://images.pokemontcg.io/xy1/116.png	$0.74
-Friend Ball	CES	131	Item		https://images.pokemontcg.io/sm7/131.png	$0.2
-Heavy Ball	NXD	88	Item		https://images.pokemontcg.io/bw4/88.png	$0.63
-Heavy Ball	NXD	88	Item		https://images.pokemontcg.io/bw4/88.png	$0.63
-Here Comes Team Rocket!	TR	15	Item		https://images.pokemontcg.io/base5/15.png	$13.02
-Hisuian Heavy Ball	swsh10	146	Item		https://images.pokemontcg.io/swsh10/146.png	$0.32
-Hisuian Heavy Ball	swsh10	146	Item		https://images.pokemontcg.io/swsh10/146.png	$0.32
-Hisuian Heavy Ball	swsh10	146	Item		https://images.pokemontcg.io/swsh10/146.png	$0.32
-Hyper Potion	CPA	54	Item		https://images.pokemontcg.io/swsh35/54.png	$0.09
-Lana's Fishing Rod	CEC	195	Item		https://images.pokemontcg.io/sm12/195.png	$0.25
-Level Ball	NXD	89	Item		https://images.pokemontcg.io/bw4/89.png	$1.29
-Level Ball	NXD	89	Item		https://images.pokemontcg.io/bw4/89.png	$1.29
-Level Ball	NXD	89	Item		https://images.pokemontcg.io/bw4/89.png	$1.29
-Level Ball	NXD	89	Item		https://images.pokemontcg.io/bw4/89.png	$1.29
-Level Ball	NXD	89	Item		https://images.pokemontcg.io/bw4/89.png	$1.29
-Level Ball	NXD	89	Item		https://images.pokemontcg.io/bw4/89.png	$1.29
-Lost Vacuum	swsh11	162	Item		https://images.pokemontcg.io/swsh11/162.png	$0.06
-Lost Vacuum	swsh11	162	Item		https://images.pokemontcg.io/swsh11/162.png	$0.06
-Max Elixir	BKP	102	Item		https://images.pokemontcg.io/xy9/102.png	$1.13
-Max Elixir	BKP	102	Item		https://images.pokemontcg.io/xy9/102.png	$1.13
-Mr. Fuji	F	58	Item		https://images.pokemontcg.io/base3/58.png	$0.36
-Nest Ball	sv4pt5	84	Item		https://images.pokemontcg.io/sv4pt5/84.png	$0.25
-Nest Ball	sv4pt5	84	Item		https://images.pokemontcg.io/sv4pt5/84.png	$0.25
-Nest Ball	sv4pt5	84	Item		https://images.pokemontcg.io/sv4pt5/84.png	$0.25
-Nest Ball	sv4pt5	84	Item		https://images.pokemontcg.io/sv4pt5/84.png	$0.25
-Nest Ball	sv4pt5	84	Item		https://images.pokemontcg.io/sv4pt5/84.png	$0.25
-Nest Ball	sv4pt5	84	Item		https://images.pokemontcg.io/sv4pt5/84.png	$0.25
-Night Stretcher	sv6pt5	61	Item		https://images.pokemontcg.io/sv6pt5/61.png	$0.91
-Night Stretcher	sv6pt5	61	Item		https://images.pokemontcg.io/sv6pt5/61.png	$0.91
-Night Stretcher	sv6pt5	61	Item		https://images.pokemontcg.io/sv6pt5/61.png	$0.91
-Night Stretcher	sv6pt5	61	Item		https://images.pokemontcg.io/sv6pt5/61.png	$0.91
-Night Stretcher	sv6pt5	61	Item		https://images.pokemontcg.io/sv6pt5/61.png	$0.91
-Night Stretcher	sv6pt5	61	Item		https://images.pokemontcg.io/sv6pt5/61.png	$0.91
-Picnic Basket	sv1	184	Item		https://images.pokemontcg.io/sv1/184.png	$0.04
-Pokémon Communication	BW	99	Item		https://images.pokemontcg.io/bw1/99.png	$0.12
-Pokémon Communication	BW	99	Item		https://images.pokemontcg.io/bw1/99.png	$0.12
-Pokémon Communication	BW	99	Item		https://images.pokemontcg.io/bw1/99.png	$0.12
-Pokémon Communication	BW	99	Item		https://images.pokemontcg.io/bw1/99.png	$0.12
-Professor Elm	NG	96	Item		https://images.pokemontcg.io/neo1/96.png	$1.23
-Professor Elm	NG	96	Item		https://images.pokemontcg.io/neo1/96.png	$1.23
-Quick Ball	swsh8	237	Item		https://images.pokemontcg.io/swsh8/237.png	$0.11
-Quick Ball	swsh8	237	Item		https://images.pokemontcg.io/swsh8/237.png	$0.11
-Quick Ball	swsh8	237	Item		https://images.pokemontcg.io/swsh8/237.png	$0.11
-Quick Ball	swsh8	237	Item		https://images.pokemontcg.io/swsh8/237.png	$0.11
-Random Receiver	DEX	99	Item		https://images.pokemontcg.io/bw5/99.png	$0.36
-Random Receiver	DEX	99	Item		https://images.pokemontcg.io/bw5/99.png	$0.36
-Rescue Carrier	swsh7	154	Item		https://images.pokemontcg.io/swsh7/154.png	$0.08
-Rescue Stretcher	GRI	130	Item		https://images.pokemontcg.io/sm2/130.png	$0.85
-Rescue Stretcher	GRI	130	Item		https://images.pokemontcg.io/sm2/130.png	$0.85
-Rescue Stretcher	GRI	130	Item		https://images.pokemontcg.io/sm2/130.png	$0.85
-Rescue Stretcher	GRI	130	Item		https://images.pokemontcg.io/sm2/130.png	$0.85
-Revive	B	89	Item		https://images.pokemontcg.io/base1/89.png	$1.61
-Robo Substitute Team Flare Gear	PHF	102	Item		https://images.pokemontcg.io/xy4/102.png	$0.36
-Special Charge	STS	105	Item		https://images.pokemontcg.io/xy11/105.png	$0.65
-Super Rod	NVI	95	Item		https://images.pokemontcg.io/bw3/95.png	$3
-Super Rod	NVI	95	Item		https://images.pokemontcg.io/bw3/95.png	$3
-Super Rod	NVI	95	Item		https://images.pokemontcg.io/bw3/95.png	$3
-Super Rod	NVI	95	Item		https://images.pokemontcg.io/bw3/95.png	$3
-Surprise! Time Machine	TRR	91	Item		https://images.pokemontcg.io/ex7/91.png	$4.17
-Surprise! Time Machine	TRR	91	Item		https://images.pokemontcg.io/ex7/91.png	$4.17
-Swoop! Teleporter	TRR	92	Item		https://images.pokemontcg.io/ex7/92.png	$15.52
-Timer Ball	SUM	134	Item		https://images.pokemontcg.io/sm1/134.png	$0.18
-Timer Ball	SUM	134	Item		https://images.pokemontcg.io/sm1/134.png	$0.18
-Tool Scrapper	DRX	116	Item		https://images.pokemontcg.io/bw6/116.png	$0.34
-Trainers' Mail	ROS	92	Item		https://images.pokemontcg.io/xy6/92.png	$2
-Trainers' Mail	ROS	92	Item		https://images.pokemontcg.io/xy6/92.png	$2
-Ultra Ball	DEX	102	Item		https://images.pokemontcg.io/bw5/102.png	$0.71
-Ultra Ball	DEX	102	Item		https://images.pokemontcg.io/bw5/102.png	$0.71
-Ultra Ball	DEX	102	Item		https://images.pokemontcg.io/bw5/102.png	$0.71
-Ultra Ball	DEX	102	Item		https://images.pokemontcg.io/bw5/102.png	$0.71
-Ultra Ball	DEX	102	Item		https://images.pokemontcg.io/bw5/102.png	$0.71
-Ultra Ball	DEX	102	Item		https://images.pokemontcg.io/bw5/102.png	$0.71
-Artazon	sv2	171	Stadium		https://images.pokemontcg.io/sv2/171.png	$0.1
-Artazon	sv2	171	Stadium		https://images.pokemontcg.io/sv2/171.png	$0.1
-Champions Festival	PR-BLW	BW95	Stadium		https://images.pokemontcg.io/bwp/BW95.png	$310
-Chaotic Swell	CEC	187	Stadium		https://images.pokemontcg.io/sm12/187.png	$0.21
-Collapsed Stadium	swsh9	137	Stadium		https://images.pokemontcg.io/swsh9/137.png	$0.15
-Cursed Stone	LM	72	Stadium		https://images.pokemontcg.io/ex12/72.png	$3.54
-Festival Grounds	sv6	149	Stadium		https://images.pokemontcg.io/sv6/149.png	$0.09
-Frozen City	PLF	100	Stadium		https://images.pokemontcg.io/bw9/100.png	$0.69
-Holon Circle	CG	79	Stadium		https://images.pokemontcg.io/ex14/79.png	$0.51
-Parallel City	BKT	145	Stadium		https://images.pokemontcg.io/xy8/145.png	$2.69
-Po Town	BUS	121	Stadium		https://images.pokemontcg.io/sm3/121.png	$0.09
-Rose Tower	DAA	169	Stadium		https://images.pokemontcg.io/swsh3/169.png	$0.09
-Silent Lab	PRC	140	Stadium		https://images.pokemontcg.io/xy5/140.png	$1.48
-Sky Pillar	CES	144	Stadium		https://images.pokemontcg.io/sm7/144.png	$0.2
-Skyarrow Bridge	NXD	91	Stadium		https://images.pokemontcg.io/bw4/91.png	$0.15
-Snowpoint Temple	LA	134	Stadium		https://images.pokemontcg.io/dp6/134.png	$0.62
-Town Store	sv3	196	Stadium		https://images.pokemontcg.io/sv3/196.png	$0.18
-Training Center	FFI	102	Stadium		https://images.pokemontcg.io/xy3/102.png	$0.21
-Training Court	RCL	169	Stadium		https://images.pokemontcg.io/swsh2/169.png	$0.18
-Tropical Beach	PR-BLW	BW28	Stadium		https://images.pokemontcg.io/bwp/BW28.png	$99.98
-Tropical Beach	PR-BLW	BW28	Stadium		https://images.pokemontcg.io/bwp/BW28.png	$99.98
-Viridian Forest	TEU	156	Stadium		https://images.pokemontcg.io/sm9/156.png	$0.25
-Wondrous Labyrinth ◇	TEU	158	Stadium		https://images.pokemontcg.io/sm9/158.png	$0.68
-Balloon Berry	NR	60	Pokémon Tool		https://images.pokemontcg.io/neo3/60.png	$0.58
-Big Air Balloon	sv3pt5	155	Pokémon Tool		https://images.pokemontcg.io/sv3pt5/155.png	$0.05
-Bodybuilding Dumbbells	BUS	113	Pokémon Tool		https://images.pokemontcg.io/sm3/113.png	$0.12
-Cessation Crystal	CG	74	Pokémon Tool		https://images.pokemontcg.io/ex14/74.png	$4.87
-Cessation Crystal	CG	74	Pokémon Tool		https://images.pokemontcg.io/ex14/74.png	$4.87
-Counter Gain	LOT	170	Pokémon Tool		https://images.pokemontcg.io/sm8/170.png	$0.23
-Counter Gain	LOT	170	Pokémon Tool		https://images.pokemontcg.io/sm8/170.png	$0.23
-Defiance Band	sv1	169	Pokémon Tool		https://images.pokemontcg.io/sv1/169.png	$0.14
-Energy Pouch	FAC	97	Pokémon Tool		https://images.pokemontcg.io/xy10/97.png	$0.17
-Exp. Share	DRV	18	Pokémon Tool		https://images.pokemontcg.io/dv1/18.png	$1.71
-Exp. Share	DRV	18	Pokémon Tool		https://images.pokemontcg.io/dv1/18.png	$1.71
-Gravity Gemstone	sv7	137	Pokémon Tool		https://images.pokemontcg.io/sv7/137.png	$0.06
-Powerglass	sv6pt5	63	Pokémon Tool		https://images.pokemontcg.io/sv6pt5/63.png	$0.12
-Rescue Board	sv5	159	Pokémon Tool		https://images.pokemontcg.io/sv5/159.png	$0.17
-Rescue Board	sv5	159	Pokémon Tool		https://images.pokemontcg.io/sv5/159.png	$0.17
-Rescue Scarf	DRX	115	Pokémon Tool		https://images.pokemontcg.io/bw6/115.png	$0.94
-Technical Machine: Blindside	sv4	176	Pokémon Tool		https://images.pokemontcg.io/sv4/176.png	$0.04
-Technical Machine: Crisis Punch	sv4pt5	90	Pokémon Tool		https://images.pokemontcg.io/sv4pt5/90.png	$0.07
-Technical Machine: Devolution	sv4	177	Pokémon Tool		https://images.pokemontcg.io/sv4/177.png	$0.14
-Technical Machine: Evolution	sv4	178	Pokémon Tool		https://images.pokemontcg.io/sv4/178.png	$0.31
-Tool Jammer	BST	136	Pokémon Tool		https://images.pokemontcg.io/swsh5/136.png	$0.03
-Vengeful Punch	sv3	197	Pokémon Tool		https://images.pokemontcg.io/sv3/197.png	$0.09
-Vitality Band	SSH	185	Pokémon Tool		https://images.pokemontcg.io/swsh1/185.png	$0.09
-Jet Energy	sv2	190	Special		https://images.pokemontcg.io/sv2/190.png	$0.65
-Jet Energy	sv2	190	Special		https://images.pokemontcg.io/sv2/190.png	$0.65
-Capture Energy	RCL	171	Special		https://images.pokemontcg.io/swsh2/171.png	$0.13
-Capture Energy	RCL	171	Special		https://images.pokemontcg.io/swsh2/171.png	$0.13
-Darkness Energy	UD	79	Special		https://images.pokemontcg.io/hgss3/79.png	$0.55
-Double Colorless Energy	NXD	92	Special		https://images.pokemontcg.io/bw4/92.png	$0.55
-Double Colorless Energy	NXD	92	Special		https://images.pokemontcg.io/bw4/92.png	$0.55
-Double Colorless Energy	HS	103	Special		https://images.pokemontcg.io/hgss1/103.png	$4.23
-Double Colorless Energy	HS	103	Special		https://images.pokemontcg.io/hgss1/103.png	$4.23
-Luminous Energy	sv2	191	Special		https://images.pokemontcg.io/sv2/191.png	$0.08
-Luminous Energy	sv2	191	Special		https://images.pokemontcg.io/sv2/191.png	$0.08
-Luminous Energy	sv2	191	Special		https://images.pokemontcg.io/sv2/191.png	$0.08
-Rainbow Energy	HS	104	Special		https://images.pokemontcg.io/hgss1/104.png	$1.49
-Rainbow Energy	HS	104	Special		https://images.pokemontcg.io/hgss1/104.png	$1.49
-Recycle Energy	UNM	212	Special		https://images.pokemontcg.io/sm11/212.png	$0.67
-Rescue Energy	TM	90	Special		https://images.pokemontcg.io/hgss4/90.png	$0.75
-Reversal Energy	sv2	192	Special		https://images.pokemontcg.io/sv2/192.png	$0.2
-Reversal Energy	sv2	192	Special		https://images.pokemontcg.io/sv2/192.png	$0.2
-Reversal Energy	sv2	192	Special		https://images.pokemontcg.io/sv2/192.png	$0.2
-Reversal Energy	sv2	192	Special		https://images.pokemontcg.io/sv2/192.png	$0.2
-Super Boost Energy ◇	UPR	136	Special		https://images.pokemontcg.io/sm5/136.png	$1.15
+1 Rainbow Energy (hgss1-104)
+1 Luminous Energy (sv2-191)
+1 Holon Energy WP (ex11-106)
+1 Gift Energy (swsh11-171)
+1 Aurora Energy (swsh1-186)
+1 Technical Machine: Crisis Punch (sv4pt5-90)
+1 Technical Machine: Blindside (sv4-176)
+1 Rescue Board (sv5-159)
+1 Escape Board (sm5-122)
+1 Counter Gain (sm8-170)
+1 Big Parasol (swsh3-157)
+1 Skyarrow Bridge (bw4-91)
+1 Sky Field (xy6-89)
+1 Pokémon League Headquarters (sv3-192)
+1 Dimension Valley (xy4-93)
+1 Chaotic Swell (sm12-187)
+1 Swoop! Teleporter (ex7-92)
+2 Switch Cart (swsh10-154)
+2 Switch (hgss1-102)
+3 Super Rod (bw3-95)
+2 Quick Ball (swsh8-237)
+1 Pow! Hand Extension (ex7-85)
+3 Nest Ball (sv1-181)
+1 Mr. Fuji (base3-58)
+2 Lost Vacuum (swsh11-162)
+5 Escape Rope (bw8-120)
+1 Energy Recycler (swsh5-124)
+3 Buddy-Buddy Poffin (sv5-144)
+1 Sidney (swsh8-241)
+1 Roseanne's Backup (swsh9-148)
+1 Rosa (sm12-204)
+1 Raihan (swsh7-152)
+1 N (bw3-92)
+1 Lusamine (sm4-96)
+2 Iono (sv2-185)
+1 Ghetsis (bw9-101)
+1 Colress's Tenacity (sv6pt5-57)
+1 Ace Trainer (xy7-69)
+1 Smeargle (xy8-123)
+1 Kecleon (swsh6-122)
+1 Tatsugiri (sv6-131)
+4 Cottonee (sm12-147)
+1 Whimsicott (xy7-56)
+2 Whimsicott (sm11-144)
+1 Unown Q (dp5-49)
+1 Unown G (dp4-57)
+3 Sableye (swsh11-70)
+1 Munkidori (sv6-95)
+1 Flutter Mane (sv5-78)
+1 Cresselia (swsh11-74)
+1 Mime Jr. (col1-47)
+1 Tapu Koko ◇ (sm9-51)
+1 Raikou (sm8-79)
+1 Pachirisu (col1-18)
+1 Mantine δ (ex15-20)
+3 Pikachu (swsh11-52)
+1 Raichu (g1-RC9)
+1 Raichu (g1-27)
+1 Alolan Raichu (sm11-57)
+1 Raichu LV.X (dp7-99)
+1 Victini ◇ (sm75-7)
+1 Victini (smp-SM225)
+1 Iron Moth (sv4-28)
+1 Heatmor (swsh8-41)
+2 Cramorant (swsh11-50)
+1 Black Kyurem (xyp-XY160)
+1 Palkia (col1-SL8)
+1 Palkia (cel25-4)
+1 Palkia LV.X (dpp-DP18)
+1 Palkia G LV.X (pl1-125)
+2 Celebi (hgss4-92)
+1 Accelgor (bw5-11)
+1 Shaymin (hgss2-8)
+1 Wo-Chien (sv8-15)
+3 Hoppip (dp3-90)
+1 Skiploom (swsh7-3)
+2 Skiploom (sm8-13)
+1 Jumpluff (swsh7-4)
+2 Jumpluff (sm8-14)
