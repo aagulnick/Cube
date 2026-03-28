@@ -8,7 +8,7 @@ MEMORY = r"./draft_results.txt"
 CUBE_LIST_FILE = r"./cube_list.txt"
 CARDS_PER_PACK = 8
 
-with open(CUBE_LIST_FILE, "r") as f:
+with open(CUBE_LIST_FILE, "r", encoding='utf-8') as f:
     cube_list = f.read()
 
 # process cube card list
@@ -78,7 +78,7 @@ def solomon_draft(cube, n):
                 print("Error processing pile choice. Please only type either 1 or 2.")
 
         if len(unchosen) > 0:
-            print(f"Player 1 now has {len(player_1_cards)} cards: {player_1_cards} \nPlayer 2 has {len(player_2_cards)}: {player_2_cards}.")
+            print(f"Player 1 now has {len(player_1_cards)} cards: {sorted(player_1_cards)} \nPlayer 2 has {len(player_2_cards)}: {sorted(player_2_cards)}.")
             input(f"Press enter when ready for next pack. There are {len(unchosen)} cards left.")
 
     print(f"Player 1 drafted: {player_1_cards} \nPlayer 2 drafted: {player_2_cards}")
@@ -90,9 +90,9 @@ def remove_non_ascii(text):
     """Strips non-ASCII characters, like delta and prism star, from card names so that file.write doesn't error."""
     return ''.join([i for i in text if ord(i) < 128])
 
-with open(MEMORY, 'w') as file:
+with open(MEMORY, 'w', encoding='utf-8') as file:
     p1_cards = drafts[0]
     p2_cards = drafts[1]
     p1_cards_untap_formatted = [str(p1_cards.count(card))+ " " + str(card) for card in set(p1_cards)]
     p2_cards_untap_formatted = [str(p2_cards.count(card))+ " " + str(card) for card in set(p2_cards)]
-    file.write(remove_non_ascii("PLAYER 1: \n{0}\n\nPLAYER 2: \n{1}".format('\n'.join(p1_cards_untap_formatted), '\n'.join(p2_cards_untap_formatted))))
+    file.write("PLAYER 1: \n{0}\n\nPLAYER 2: \n{1}".format('\n'.join(p1_cards_untap_formatted), '\n'.join(p2_cards_untap_formatted)))

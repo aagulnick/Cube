@@ -11,7 +11,7 @@ CUBE_LIST_FILE = r"./cube_list.txt"
 STARTING_PILE_SIZE = 1
 NUM_PILES = 3
 
-with open(CUBE_LIST_FILE, "r") as f:
+with open(CUBE_LIST_FILE, "r", encoding='utf-8') as f:
     cube_list = f.read()
 
 def remove_non_ascii(text):
@@ -120,14 +120,14 @@ while len(unchosen) > 0 or len(piles) > 0:
 
     if my_turn:
         print(f"You now have: {my_cards}")
-        with open(MEMORY, 'w') as file:
-            file.write(remove_non_ascii("My cards: \n{0}".format('\n'.join(my_cards))))
+        with open(MEMORY, 'w', encoding='utf-8') as file:
+            file.write("My cards: \n{0}".format('\n'.join(my_cards)))
     my_turn = not my_turn
 
     print(f"There are {len(unchosen)} cards left in the deck. There are {len(piles)} piles left.")
 
 # when all cards are drafted
-with open(MEMORY, 'w') as file:
+with open(MEMORY, 'w', encoding='utf-8') as file:
     aaron_cards_untap_formatted = [str(my_cards.count(card))+ " " + str(card) for card in set(my_cards)]
     grant_cards_untap_formatted = [str(opp_cards.count(card))+ " " + str(card) for card in set(opp_cards)]
-    file.write(remove_non_ascii("Aaron's cards: \n{0}\n\nGrant's cards: \n{1}".format('\n'.join(aaron_cards_untap_formatted), '\n'.join(grant_cards_untap_formatted))))
+    file.write("Aaron's cards: \n{0}\n\nGrant's cards: \n{1}".format('\n'.join(aaron_cards_untap_formatted), '\n'.join(grant_cards_untap_formatted)))
